@@ -1,0 +1,6 @@
+.DS_Store
+.fleet
+.idea
+.vs
+.vscode
+/node_modules
