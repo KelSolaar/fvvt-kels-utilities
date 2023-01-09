@@ -8,7 +8,7 @@ function registerSettings() {
     game.settings.register(
         Constants.moduleName, "enableEquipmentQualityIntegration", {
             name: "Enable Equipment Quality for \"ItemPiles\".",
-            hint: "When enabled, the equipment (item) quality of \"ItemPiles\" converted tokens is randomly changed. The quality is reflected in the item modified name and price.",
+            hint: "When enabled, the equipment (item) quality of \"ItemPiles\" converted tokens is randomly changed as a function of the \"Equipment Quality\" roll table. The quality is reflected in the item modified name and price.",
             scope: "world",
             config: true,
             default: true,
