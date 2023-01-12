@@ -1,0 +1,428 @@
+/*** Foundry ***/
+/* Overall Interface */
+#logo {
+    display: none;
+}
+
+#controls {
+    margin-top: 12px;
+}
+
+#controls ol.control-tools>li {
+    color: var(--color-text-light-0);
+}
+
+#controls ol.control-tools>li.toggle {
+    background: var(--palette-primary);
+    border-color: var(--palette-primary-outline);
+    box-shadow: 0 0 10px var(--palette-primary);
+}
+
+#controls ol.control-tools>li.toggle:hover {
+    background: var(--palette-secondary-hover);
+    border-color: var(--palette-secondary-hover-outline);
+    box-shadow: 0 0 10px var(--palette-secondary-hover);
+}
+
+#controls ol.control-tools>li.toggle.active {
+    background: var(--palette-secondary-active);
+    border-color: var(--palette-secondary-active-outline);
+    box-shadow: 0 0 10px var(--palette-secondary-active);
+}
+
+#navigation {
+    margin-left: 80px;
+}
+
+#navigation #nav-toggle {
+    flex: 0 0 38px;
+    height: 38px;
+}
+
+#navigation .nav-item {
+    line-height: 36px;
+}
+
+#players {
+    display: none;
+}
+
+#hotbar {
+    margin-left: -108px;
+}
+
+#hotbar .bar-controls {
+    border-color: var(--app-background);
+    box-shadow: 0 0 20px var(--color-shadow-dark);
+}
+
+#hotbar #macro-list {
+    column-gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#hotbar .macro,
+#hotbar .macro.inactive {
+    border-color: var(--app-background);
+    box-shadow: 0 0 10px var(--color-shadow-dark);
+}
+
+#sidebar {
+    margin: 12px;
+    height: calc(100% - 22px);
+}
+
+#chat-form textarea {
+    background: none;
+    background-color: var(--palette-primary);
+}
+
+/* Card Stacks */
+#sidebar-tabs>a:nth-child(8) {
+    display: none;
+}
+
+/* Button */
+form button {
+    border: 1px solid var(--color-border-light-highlight);
+}
+
+.dialog .dialog-buttons button.yes {
+    border: 1px solid var(--palette-success);
+}
+
+/*
+form button:hover {
+	box-shadow: 0 0 5px var(--palette-tertiary-hover-outline);
+}
+
+form button:active {
+	box-shadow: 0 0 5px var(--palette-tertiary-active-outline);
+}
+*/
+
+/* Dropdown */
+.prosemirror menu .pm-dropdown,
+.prosemirror menu .pm-dropdown ul {
+    background-color: var(--app-dialog-background);
+    color: var(--color-text-light-0);
+}
+
+.prosemirror menu .pm-dropdown:hover,
+.prosemirror menu button:hover,
+.prosemirror menu .pm-dropdown li:hover {
+    background-color: var(--palette-secondary);
+}
+
+
+/* Journal */
+a.content-link,
+a.inline-roll {
+    background-color: var(--palette-primary);
+}
+
+.kels-note {
+    background-color: var(--palette-blue);
+    padding: 10px;
+}
+
+/* Module Management */
+#module-management .package-list .package-title {
+    color: var(--color-text-light-0);
+
+}
+
+/*** Modules ***/
+/* Code Mirror */
+.CodeMirror-sizer {
+    background-color: var(--app-dialog-background);
+}
+
+.CodeMirror-gutters {
+    background-image: none;
+}
+
+/* Convenient Effects */
+.awesomplete>input,
+.awesomplete>ul>li {
+    background-color: var(--app-dialog-background);
+}
+
+/* Custom CSS Rules */
+.stylesheet-editor {
+    background-color: var(--app-background);
+}
+
+/* ddb-importer */
+blockquote.adventure-read-aloud-text,
+blockquote.compendium-parchment-blockquote,
+blockquote.ddb-blockquote {
+    background-color: var(--palette-primary);
+    border: none;
+    color: var(--color-text-light-0);
+}
+
+.ddbimporter-show-image,
+.ddbimporter-to-chat {
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+/* dnd5 */
+.dnd5e.sheet .sheet-header {
+    border-bottom: 1px solid var(--color-border-light-2);
+    padding-bottom: 5px;
+}
+
+.dnd5e.sheet .sheet-header img.profile {
+    border: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .sheet-header .summary {
+    border: 1px solid var(--color-border-light-2);
+    border-left: none;
+    border-right: none;
+}
+
+.dnd5e.sheet.actor .sheet-header .attributes .attribute {
+    border: none;
+    border-right: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .ability-scores,
+.dnd5e.sheet.actor ul.skills-list,
+.dnd5e.sheet.actor ul.attributes li.attribute {
+    border: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .ability-scores,
+.dnd5e.sheet.actor ul.skills-list,
+.dnd5e.sheet.actor .center-pane {
+    margin-top: 5px;
+}
+
+/* Item Piles */
+.item-piles-even-color:nth-child(odd) {
+    background-color: var(--palette-primary);
+}
+
+.item-piles-even-color:nth-child(even) {
+    background-color: var(--palette-dialog-background);
+}
+
+/* Monk's Tokenbar */
+#tokenbar #tokenbar-controls,
+#tokenbar.vertical #tokenbar-controls,
+#tokenbar #token-action-bar .token-list .token,
+#tokenbar.vertical #token-action-bar .token-list .token {
+    box-shadow: 0 0 20px var(--color-shadow-dark);
+}
+
+#tokenbar #token-action-bar .token-list,
+#tokenbar.vertical #token-action-bar .token-list {
+    border: 1px solid #00000000;
+    gap: 5px;
+}
+
+#tokenbar #token-action-bar .token-list {
+    margin-left: 5px;
+}
+
+#tokenbar.vertical #token-action-bar .token-list {
+    margin-top: 5px;
+}
+
+/* Monk's Enhanced Journal*/
+#MonksEnhancedJournal .window-content {
+    background-color: var(--app-background);
+    padding-top: 0;
+}
+
+.monks-enhanced-journal .tab-bar .journal-tab {
+    background-color: var(--color-border-dark-2);
+    border-color: var(--app-dialog-background);
+}
+
+.monks-enhanced-journal .tab-bar .journal-tab.active {
+    background-color: var(--palette-primary);
+    border-color: var(--color-border-light-2);
+}
+
+.monks-enhanced-journal .mainbar .navigation {
+    background-color: var(--color-border-dark-2);
+}
+
+.monks-enhanced-journal .mainbar .navigation .nav-button,
+.monks-enhanced-journal footer.navigation .nav-button {
+    background-color: var(--app-dialog-background);
+}
+
+.monks-enhanced-journal .mainbar>div {
+    border-bottom: 1px solid var(--color-border-dark-3);
+}
+
+.monks-enhanced-journal footer {
+    border-top: 1px solid var(--color-border-dark-3);
+
+}
+
+.monks-enhanced-journal .directory-sidebar {
+    background: none;
+    border-color: var(--color-border-dark-2);
+}
+
+#journal-directory li.folder>.folder-header h3,
+#journal-directory li.folder>.folder-header .create-button,
+#journal-directory li.folder>.folder-header .create-document,
+#journal-directory li.folder.collapsed>.folder-header .create-button,
+#journal-directory li.folder.collapsed>.folder-header .create-document {
+    color: var(--color-text-light-0);
+}
+
+.monks-enhanced-journal .journal-sheet .journal-header .title {
+    color: var(--color-text-light-0);
+}
+
+.monks-journal-sheet.sheet .recent-link,
+.monks-journal-sheet.sheet .new-link {
+    color: var(--color-text-light-0);
+    opacity: 1.0;
+}
+
+#MonksEnhancedJournal>section>div>div.body.flexcol>div.content.flexcol.editable>section>div {
+    background-color: var(--app-dialog-background);
+    opacity: 1.0 !important;
+}
+
+#MonksEnhancedJournal>section>div>div.body.flexcol>div.content.flexcol.editable>section>div>div:nth-child(2)>div:nth-child(2) {
+    color: var(--color-text-light-0) !important;
+
+}
+
+/* Tidy5e Sheet */
+.tidy5e.sheet.actor .exhaustion-container .level-display,
+.tidy5e.sheet.actor .exhaustion-container .exhaustion-icon,
+.tidy5e.sheet.actor .exhaust-level,
+.tidy5e.sheet.actor .inspiration label,
+.tidy5e.sheet.actor .resting-icon,
+.tidy5e.sheet.actor .resting,
+.tidy5e.sheet.actor .portrait-hd,
+.tidy5e.sheet.actor .level {
+    background-color: var(--palette-primary);
+    color: var(--color-text-light-0);
+}
+
+.tidy5e.sheet.actor .player-image {
+    background-color: var(--palette-primary);
+}
+
+.tidy5e.sheet.actor #item-info-container {
+    background: var(--palette-primary);
+}
+
+.tidy5e.sheet.actor #item-info-container,
+.tidy5e.sheet.actor.npc .spellcasting-ability,
+.tidy5e.sheet.actor .items-list .item .activate-context-menu,
+.tidy5e.sheet.actor .items-list .item .context-menu {
+    background: var(--palette-primary);
+}
+
+.tidy5e.sheet.actor .actor-size-select .size-label:hover,
+.tidy5e.sheet.actor .actor-size-select.active .size-label,
+.tidy5e.sheet.actor .custom-category:hover,
+.tidy5e.sheet.actor .filter-list .toggle-layout:hover,
+.tidy5e.sheet.actor .portrait .portrait-menu .showActorArt:hover,
+.tidy5e.sheet.actor .rollable:hover,
+.tidy5e.sheet.actor .tidy5e-navigation .item:hover,
+.tidy5e.sheet.actor.npc .origin-summary .creature-type .config-button:hover,
+.tidy5e.sheet.item .sheet-navigation .item:hover {
+    color: var(--palette-secondary);
+}
+
+
+.tidy5e.sheet.actor .ability-scores .ability .ability-mod:hover,
+.tidy5e.sheet.actor .ability-scores .ability .ability-save:hover,
+.tidy5e.sheet.actor .actor-size-select.active .current,
+.tidy5e.sheet.actor .attuned-items-counter.overattuned,
+.tidy5e.sheet.actor .items-list .items-header .spellSlotMarker .dot,
+.tidy5e.sheet.actor .skills-list>.skill>.skill-ability-select:focus,
+.tidy5e.sheet.actor .skills-list>.skill>.skill-ability-select:hover {
+    background: var(--palette-secondary);
+}
+
+.tidy5e.sheet.actor .list-layout .items-list .item.context {
+    -webkit-box-shadow: 0 0 3px 1px var(--palette-secondary) inset;
+    box-shadow: 0 0 3px 1px var(--palette-secondary) inset;
+}
+
+.tidy5e.sheet.actor .skills-list>.skill>.skill-cust-bonus:focus .tidy5e.sheet.actor .skills-list>.skill>.skill-cust-bonus:hover,
+.tidy5e.sheet.actor [contenteditable=true]:focus,
+.tidy5e.sheet.actor [contenteditable=true]:hover,
+.tidy5e.sheet.actor input[type=text]:focus,
+.tidy5e.sheet.actor input[type=text]:hover,
+.tidy5e.sheet.item .sheet-body .tab.advancement .form-group button:hover,
+.tidy5e.sheet.item .sheet-body .tab.advancement .form-group input[type=text]:hover,
+.tidy5e.sheet.item .sheet-body .tab.advancement .form-group select:focus,
+.tidy5e.sheet.item .sheet-body .tab.advancement .form-group select:hover,
+.tidy5e.sheet.item .sheet-body .tab.details .form-group button:hover,
+.tidy5e.sheet.item .sheet-body .tab.details .form-group input[type=text]:hover,
+.tidy5e.sheet.item .sheet-body .tab.details .form-group select:focus,
+.tidy5e.sheet.item .sheet-body .tab.details .form-group select:hover,
+.tidy5e.sheet.item .sheet-body .tab.dynamiceffects .form-group button:hover,
+.tidy5e.sheet.item .sheet-body .tab.dynamiceffects .form-group input[type=text]:hover,
+.tidy5e.sheet.item .sheet-body .tab.dynamiceffects .form-group select:focus,
+.tidy5e.sheet.item .sheet-body .tab.dynamiceffects .form-group select:hover,
+.tidy5e.sheet.item .sheet-body .tab.item-betterRolls .form-group button:hover,
+.tidy5e.sheet.item .sheet-body .tab.item-betterRolls .form-group input[type=text]:hover,
+.tidy5e.sheet.item .sheet-body .tab.item-betterRolls .form-group select:focus,
+.tidy5e.sheet.item .sheet-body .tab.item-betterRolls .form-group select:hover,
+.tidy5e.sheet.item .sheet-body .tab.magic-items .form-group button:hover,
+.tidy5e.sheet.item .sheet-body .tab.magic-items .form-group input[type=text]:hover,
+.tidy5e.sheet.item .sheet-body .tab.magic-items .form-group select:focus,
+.tidy5e.sheet.item .sheet-body .tab.magic-items .form-group select:hover,
+.tidy5e.sheet.item input[type=text]:focus,
+.tidy5e.sheet.item input[type=text]:hover {
+    -webkit-box-shadow: 0 0 0 1px var(--palette-secondary) inset;
+    box-shadow: 0 0 0 1px var(--palette-secondary) inset;
+}
+
+.tidy5e.sheet.actor .skills-list>.skill>.skill-ability-select:hover,
+.tidy5e.sheet.actor .skills-list>.skill>.skill-ability-select:focus {
+    -webkit-box-shadow: 0 0 0 1px var(--palette-secondary);
+    box-shadow: 0 0 0 1px var(--palette-secondary);
+}
+
+.tidy5e.sheet.actor .grid-layout .item-list .item.context {
+    border: 1px solid var(--palette-secondary);
+}
+
+.tidy5e.sheet.actor .grid-layout .item-list .item.innate .item-image {
+    -webkit-box-shadow: 0 0 1px 1px inset var(--palette-secondary);
+    box-shadow: 0 0 1px 1px inset var(--palette-secondary);
+}
+
+.tidy5e.sheet.actor .items-list .item .context-menu a.active,
+.tidy5e.sheet.actor .items-list .item-state-icon.not-attuned,
+.tidy5e.sheet.actor .list-layout .items-list .item .item-controls:not(.context-menu) a.not-attuned {
+    color: var(--palette-secondary);
+}
+
+.tidy5e.sheet.actor .grid-layout .item-list .item .icon-attuned.not-attuned {
+    background: var(--palette-secondary);
+    -webkit-box-shadow: 0 0 3px 1px var(--palette-secondary);
+    box-shadow: 0 0 3px 1px var(--palette-secondary);
+}
+
+/* Token Action HUD */
+#tah-categories,
+.tah-subcategory,
+.tah-actions {
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.tah-subcategory,
+.tah-actions {
+    margin-left: -2.5px;
+}
