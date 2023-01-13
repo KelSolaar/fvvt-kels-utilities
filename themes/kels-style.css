@@ -103,6 +103,15 @@ form button:active {
 */
 
 /* Dropdown */
+.prosemirror menu button.active {
+    background-color: var(--palette-secondary-active)
+}
+
+.prosemirror menu button:hover {
+    background-color: var(--palette-secondary);
+    color: var(--color-text-dark-primary);
+}
+
 .prosemirror menu .pm-dropdown,
 .prosemirror menu .pm-dropdown ul {
     background-color: var(--app-dialog-background);
@@ -110,11 +119,10 @@ form button:active {
 }
 
 .prosemirror menu .pm-dropdown:hover,
-.prosemirror menu button:hover,
 .prosemirror menu .pm-dropdown li:hover {
     background-color: var(--palette-secondary);
+    color: var(--color-text-dark-primary);
 }
-
 
 /* Journal */
 a.content-link,
@@ -133,8 +141,7 @@ a.inline-roll {
 
 }
 
-/*** Modules ***/
-/* Code Mirror */
+/*** Code Mirror ***/
 .CodeMirror-sizer {
     background-color: var(--app-dialog-background);
 }
@@ -143,18 +150,18 @@ a.inline-roll {
     background-image: none;
 }
 
-/* Convenient Effects */
+/*** Convenient Effects ***/
 .awesomplete>input,
 .awesomplete>ul>li {
     background-color: var(--app-dialog-background);
 }
 
-/* Custom CSS Rules */
+/*** Custom CSS Rules ***/
 .stylesheet-editor {
     background-color: var(--app-background);
 }
 
-/* ddb-importer */
+/**** ddb-importer ***/
 blockquote.adventure-read-aloud-text,
 blockquote.compendium-parchment-blockquote,
 blockquote.ddb-blockquote {
@@ -169,7 +176,13 @@ blockquote.ddb-blockquote {
     margin-right: 5px;
 }
 
-/* dnd5 */
+/*** dnd5 ***/
+/* Overall */
+.dnd5e .items-list .items-header {
+    border: 2px solid var(--color-border-light-2);
+}
+
+/* Overall Sheet */
 .dnd5e.sheet .sheet-header {
     border-bottom: 1px solid var(--color-border-light-2);
     padding-bottom: 5px;
@@ -179,15 +192,56 @@ blockquote.ddb-blockquote {
     border: 1px solid var(--color-border-light-2);
 }
 
+.dnd5e.sheet .sheet-navigation .item {
+    border-bottom: 3px solid var(--color-border-light-1);
+}
+
+.dnd5e.sheet .sheet-header .summary {
+    border-top: 2px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet .sheet-header .summary li {
+    border-right: 2px solid var(--color-border-light-2);
+    color: var(--color-text-light-0);
+}
+
+.dnd5e.sheet .filter-list .filter-item {
+    border-bottom: 2px solid var(--color-border-light-1);
+}
+
+/* Actor Sheet */
 .dnd5e.sheet.actor .sheet-header .summary {
     border: 1px solid var(--color-border-light-2);
     border-left: none;
     border-right: none;
 }
 
+.dnd5e.sheet.actor .sheet-header .summary li,
 .dnd5e.sheet.actor .sheet-header .attributes .attribute {
     border: none;
     border-right: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .sheet-header .attributes .attribute .attribute-name {
+    border-bottom: 2px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor h4.box-title {
+    border-bottom: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .ability-scores .ability {
+    border-bottom: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
+    border-top: 1px solid var(--color-border-light-2);
+    border-right: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .ability-scores .ability .ability-modifiers span.ability-save {
+    border-top: 1px solid var(--color-border-light-2);
+    border-left: 1px solid var(--color-border-light-2);
 }
 
 .dnd5e.sheet.actor .ability-scores,
@@ -202,7 +256,60 @@ blockquote.ddb-blockquote {
     margin-top: 5px;
 }
 
-/* Item Piles */
+.dnd5e.sheet.actor .form-group {
+    border-bottom: 1px solid var(--color-border-light-2) !important;
+}
+
+.dnd5e.sheet.actor .counters {
+    border-bottom: 1px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.actor .inventory-list .item-summary {
+    color: var(--color-text-light-0);
+}
+
+.dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active,
+.dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active {
+    color: var(--palette-light);
+}
+
+.dnd5e.sheet.actor .inventory-list .item .item-name.rollable .item-image:hover {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url(../../icons/svg/d20-black.svg);
+    mask-image: url(../../icons/svg/d20-black.svg) !important;
+    background-image: none !important;
+    background-color: var(--palette-secondary);
+}
+
+.dnd5e.sheet.actor .features i.original-class {
+    color: var(--color-text-light-0);
+}
+
+/* Item Sheet */
+.dnd5e.sheet.item .sheet-header .item-subtitle {
+    color: var(--color-text-light-0);
+}
+
+.dnd5e.sheet.item .sheet-body .item-properties {
+    border-right: 2px solid var(--color-border-light-2);
+}
+
+.dnd5e.sheet.item .sheet-body .item-properties .properties-header {
+    color: var(--color-text-light-2);
+}
+
+.dnd5e.sheet.item .sheet-body .item-properties .properties-list li {
+    border: 1px solid var(--color-border-light-2);
+
+}
+
+/* Journal Card */
+.dnd5e.chat-card .card-header h3 {
+    color: var(--color-text-light-0);
+}
+
+/*** Item Piles ***/
 .item-piles-even-color:nth-child(odd) {
     background-color: var(--palette-primary);
 }
@@ -211,7 +318,7 @@ blockquote.ddb-blockquote {
     background-color: var(--palette-dialog-background);
 }
 
-/* Monk's Tokenbar */
+/*** Monk's Tokenbar ***/
 #tokenbar #tokenbar-controls,
 #tokenbar.vertical #tokenbar-controls,
 #tokenbar #token-action-bar .token-list .token,
@@ -233,7 +340,7 @@ blockquote.ddb-blockquote {
     margin-top: 5px;
 }
 
-/* Monk's Enhanced Journal*/
+/*** Monk's Enhanced Journal ***/
 #MonksEnhancedJournal .window-content {
     background-color: var(--app-background);
     padding-top: 0;
@@ -300,7 +407,7 @@ blockquote.ddb-blockquote {
 
 }
 
-/* Tidy5e Sheet */
+/*** Tidy5e Sheet ***/
 .tidy5e.sheet.actor .exhaustion-container .level-display,
 .tidy5e.sheet.actor .exhaustion-container .exhaustion-icon,
 .tidy5e.sheet.actor .exhaust-level,
@@ -414,7 +521,7 @@ blockquote.ddb-blockquote {
     box-shadow: 0 0 3px 1px var(--palette-secondary);
 }
 
-/* Token Action HUD */
+/*** Token Action HUD ***/
 #tah-categories,
 .tah-subcategory,
 .tah-actions {
