@@ -25,6 +25,16 @@ This module implements support for equipment (item) quality to [Item Piles](http
 | 56-65   | 10%      | Terrible Quality (Cracked, Warped)   | 0.1×  |
 | 66-100  | 35%      | Destroyed                            | 0×    |
 
+## Monster Art
+
+This module adds a new action to the *NPC* sheets that allows showing to the players available monster art.
+The current art data is sourced from the following locations:
+
+-   [AideDD - Monsters 5e](https://www.aidedd.org/dnd-filters/monsters.php)
+
+Various Python scripts from the [Utilities](Utilities/) can be used to update the
+monster art data.
+
 # About
 
 **Kel's Utilities** by Thomas Mansencal

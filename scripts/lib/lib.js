@@ -1,69 +1,139 @@
-import {
-    Constants
-} from "./Constants.js";
+import { Constants } from "./Constants.js";
 
 function log(message) {
-    console.log(`%c${Constants.moduleName}%c | ` + message, "color:#efc160", "color:#bbbbbb");
-};
+  console.log(
+    `%c${Constants.moduleName}%c | ` + message,
+    "color:#efc160",
+    "color:#bbbbbb"
+  );
+}
 class KelsUtilities {
-    constructor() {
-        this.Constants = Constants;
-        this.log = log;
+  constructor() {
+    this.Constants = Constants;
+    this.log = log;
 
-        this.hookTurnIntoItemPiles = undefined;
-    };
+    this.hooksTurnIntoItemPiles = new Map();
+    this.hooksShowMonsterArt = new Map();
+  }
 
-    tableResultToEquipmentQuality(tableResult) {
-        const range = tableResult.results[0].range;
+  tableResultToEquipmentQuality(tableResult) {
+    const range = tableResult.results[0].range;
 
-        for (const equipmentQuality of Constants.equipmentQuality) {
-            if (equipmentQuality.range.toString() == range.toString()) {
-                return equipmentQuality;
-            }
-        };
-    };
-
-    async modifyTokenEquipementQuality(token) {
-        const pack = `${Constants.moduleName}.${Constants.packs.rollTables}`;
-        const tableEquipmentQuality = await game.packs.get(pack).getDocument(Constants.rolltableIds.equipmentQuality)
-
-        for (let item of token.actor.items) {
-            log(`Updating ${item}`);
-            const results = await tableEquipmentQuality.roll();
-            const equipmentQuality = this.tableResultToEquipmentQuality(results);
-
-            if (item.system.price?.value != undefined) {
-                await item.update({
-                    "name": item.name + " " + "(" + equipmentQuality.name + ")",
-                    "system.price.value": item.system.price.value * equipmentQuality.priceMultiplier
-                });
-            }
-        }
+    for (const equipmentQuality of Constants.equipmentQuality) {
+      if (equipmentQuality.range.toString() == range.toString()) {
+        return equipmentQuality;
+      }
     }
+  }
 
-    async registerHookTurnIntoItemPiles() {
-        this.hookTurnIntoItemPiles = Hooks.on("item-piles-turnIntoItemPiles", async (tokenUpdateGroups, actorUpdateGroups) => {
-            for (let [key, tokenUpdates] of Object.entries(tokenUpdateGroups)) {
-                for (let tokenUpdate of tokenUpdates) {
-                    let token = canvas.tokens.placeables.filter((token) => token.document._id == tokenUpdate._id)[0];
+  async modifyTokenEquipementQuality(token) {
+    const pack = `${Constants.moduleName}.${Constants.packs.rollTables}`;
+    const tableEquipmentQuality = await game.packs
+      .get(pack)
+      .getDocument(Constants.rolltableIds.equipmentQuality);
 
-                    this.modifyTokenEquipementQuality(token);
-                }
-            }
+    for (let item of token.actor.items) {
+      log(`Updating ${item}`);
+      const results = await tableEquipmentQuality.roll();
+      const equipmentQuality = this.tableResultToEquipmentQuality(results);
+
+      if (item.system.price?.value != undefined) {
+        await item.update({
+          name: item.name + " " + "(" + equipmentQuality.name + ")",
+          "system.price.value":
+            item.system.price.value * equipmentQuality.priceMultiplier,
         });
+      }
+    }
+  }
 
-        return this.hookTurnIntoItemPiles;
-    };
+  async registerHooksTurnIntoItemPiles() {
+    let hookName = "item-piles-turnIntoItemPiles";
+    this.hooksTurnIntoItemPiles.set(
+      hookName,
+      Hooks.on(hookName, async (tokenUpdateGroups, actorUpdateGroups) => {
+        for (let [key, tokenUpdates] of Object.entries(tokenUpdateGroups)) {
+          for (let tokenUpdate of tokenUpdates) {
+            let token = canvas.tokens.placeables.filter(
+              (token) => token.document._id == tokenUpdate._id
+            )[0];
 
-    async unregisterHookTurnIntoItemPiles() {
-        if (this.hookTurnIntoItemPiles != undefined) {
-            Hooks.off("item-piles-turnIntoItemPiles", this.hookTurnIntoItemPiles);
-            this.hookTurnIntoItemPiles = undefined;
+            this.modifyTokenEquipementQuality(token);
+          }
         }
-    };
-};
+      })
+    );
 
-export {
-    log,
-    KelsUtilities
-};
+    return this.hooksTurnIntoItemPiles;
+  }
+
+  async unregisterHooksTurnIntoItemPiles() {
+    for (let [key, hook] of this.hooksTurnIntoItemPiles.entries()) {
+      log(`Unregistering ${key} with ${hook} id.`);
+      Hooks.off(key, hook);
+    }
+    this.hooksTurnIntoItemPiles = new Map();
+
+    return this.hooksTurnIntoItemPiles;
+  }
+
+  async registerHooksShowMonsterArt() {
+    const monsterImageUrls = await fetch(
+      game.kelsUtilities.Constants.pathJsonMonsterImageUrls
+    ).then((response) => response.json());
+
+    const npcSheetNames = Object.values(CONFIG.Actor.sheetClasses.npc)
+      .map((sheetClass) => sheetClass.cls)
+      .map((sheet) => sheet.name);
+
+    npcSheetNames.forEach((sheetName) => {
+      let hookName = `render${sheetName}`;
+      this.hooksShowMonsterArt.set(
+        hookName,
+        Hooks.on(hookName, async (app, html, data) => {
+          if (!data.owner || !data.actor) return;
+
+          let monsterName = data.actor.name;
+          if (!(monsterName in monsterImageUrls)) {
+            log(
+              `"${monsterName}" monster name was not found in monster image urls!`
+            );
+            return;
+          }
+
+          let monsterImageUrl = monsterImageUrls[monsterName].image_url;
+          let button = $(
+            `<a class="kels-utilities-open-art"><i class="fa-solid fa-brush"></i> Art</a>`
+          );
+          button.click((event) => {
+            const imagePopout = new ImagePopout(monsterImageUrl, {
+              title: monsterName,
+            });
+            imagePopout.render(true);
+            imagePopout.shareImage();
+          });
+
+          html.closest(".app").find(".kels-utilities-open-art").remove();
+          let titleElement = html.closest(".app").find(".window-title");
+          if (!app._minimized) {
+            button.insertAfter(titleElement);
+          }
+        })
+      );
+    });
+
+    return this.hooksShowMonsterArt;
+  }
+
+  async unregisterHooksShowMonsterArt() {
+    for (let [key, hook] of this.hooksShowMonsterArt.entries()) {
+      log(`Unregistering ${key} with ${hook} id.`);
+      Hooks.off(key, hook);
+    }
+    this.hooksShowMonsterArt = new Map();
+
+    return this.hooksShowMonsterArt;
+  }
+}
+
+export { log, KelsUtilities };

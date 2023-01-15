@@ -1,0 +1,1714 @@
+{
+    "Aarakocra": {
+        "image_url": "https://www.aidedd.org/dnd/images/aarakocra.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=aarakocra"
+    },
+    "Aboleth": {
+        "image_url": "https://www.aidedd.org/dnd/images/aboleth.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=aboleth"
+    },
+    "Abominable Yeti": {
+        "image_url": "https://www.aidedd.org/dnd/images/yeti.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=abominable-yeti"
+    },
+    "Acolyte": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=acolyte"
+    },
+    "Adult Black Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/black-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-black-dragon"
+    },
+    "Adult Blue Dracolich": {
+        "image_url": "https://www.aidedd.org/dnd/images/dracolich.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-blue-dracolich"
+    },
+    "Adult Blue Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/blue-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-blue-dragon"
+    },
+    "Adult Brass Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/brass-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-brass-dragon"
+    },
+    "Adult Bronze Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/bronze-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-bronze-dragon"
+    },
+    "Adult Copper Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/copper-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-copper-dragon"
+    },
+    "Adult Gold Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/gold-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-gold-dragon"
+    },
+    "Adult Green Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/green-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-green-dragon"
+    },
+    "Adult Red Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/red-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-red-dragon"
+    },
+    "Adult Silver Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/silver-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-silver-dragon"
+    },
+    "Adult White Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/white-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=adult-white-dragon"
+    },
+    "Air Elemental": {
+        "image_url": "https://www.aidedd.org/dnd/images/air-elemental.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=air-elemental"
+    },
+    "Allosaurus": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=allosaurus"
+    },
+    "Ancient Black Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/black-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-black-dragon"
+    },
+    "Ancient Blue Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/blue-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-blue-dragon"
+    },
+    "Ancient Brass Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/brass-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-brass-dragon"
+    },
+    "Ancient Bronze Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/bronze-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-bronze-dragon"
+    },
+    "Ancient Copper Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/copper-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-copper-dragon"
+    },
+    "Ancient Gold Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/gold-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-gold-dragon"
+    },
+    "Ancient Green Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/green-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-green-dragon"
+    },
+    "Ancient Red Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/red-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-red-dragon"
+    },
+    "Ancient Silver Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/silver-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-silver-dragon"
+    },
+    "Ancient White Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/white-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ancient-white-dragon"
+    },
+    "Androsphinx": {
+        "image_url": "https://www.aidedd.org/dnd/images/androsphinx.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=androsphinx"
+    },
+    "Animated Armor": {
+        "image_url": "https://www.aidedd.org/dnd/images/animated-armor.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=animated-armor"
+    },
+    "Ankheg": {
+        "image_url": "https://www.aidedd.org/dnd/images/ankheg.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ankheg"
+    },
+    "Ankylosaurus": {
+        "image_url": "https://www.aidedd.org/dnd/images/ankylosaurus.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ankylosaurus"
+    },
+    "Ape": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ape"
+    },
+    "Arcanaloth": {
+        "image_url": "https://www.aidedd.org/dnd/images/arcanaloth.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=arcanaloth"
+    },
+    "Archmage": {
+        "image_url": "https://www.aidedd.org/dnd/images/archmage.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=archmage"
+    },
+    "Assassin": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=assassin"
+    },
+    "Awakened Shrub": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=awakened-shrub"
+    },
+    "Awakened Tree": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=awakened-tree"
+    },
+    "Axe Beak": {
+        "image_url": "https://www.aidedd.org/dnd/images/axe-beak.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=axe-beak"
+    },
+    "Azer": {
+        "image_url": "https://www.aidedd.org/dnd/images/azer.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=azer"
+    },
+    "Baboon": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=baboon"
+    },
+    "Badger": {
+        "image_url": "https://www.aidedd.org/dnd/images/badger.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=badger"
+    },
+    "Balor": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-balor.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=balor"
+    },
+    "Bandit": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bandit"
+    },
+    "Bandit Captain": {
+        "image_url": "https://www.aidedd.org/dnd/images/bandit-captain.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bandit-captain"
+    },
+    "Banshee": {
+        "image_url": "https://www.aidedd.org/dnd/images/banshee.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=banshee"
+    },
+    "Barbed Devil": {
+        "image_url": "https://www.aidedd.org/dnd/images/barbed-devil.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=barbed-devil"
+    },
+    "Barlgura": {
+        "image_url": "https://www.aidedd.org/dnd/images/barlgura.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=barlgura"
+    },
+    "Basilisk": {
+        "image_url": "https://www.aidedd.org/dnd/images/basilisk.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=basilisk"
+    },
+    "Bat": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bat"
+    },
+    "Bearded Devil": {
+        "image_url": "https://www.aidedd.org/dnd/images/bearded-devil.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bearded-devil"
+    },
+    "Behir": {
+        "image_url": "https://www.aidedd.org/dnd/images/behir.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=behir"
+    },
+    "Beholder": {
+        "image_url": "https://www.aidedd.org/dnd/images/beholder.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=beholder"
+    },
+    "Beholder Zombie": {
+        "image_url": "https://www.aidedd.org/dnd/images/beholder-zombie.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=beholder-zombie"
+    },
+    "Berserker": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=berserker"
+    },
+    "Black Bear": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=black-bear"
+    },
+    "Black Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=black-dragon-wyrmling"
+    },
+    "Black Pudding": {
+        "image_url": "https://www.aidedd.org/dnd/images/black-pudding.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=black-pudding"
+    },
+    "Blink Dog": {
+        "image_url": "https://www.aidedd.org/dnd/images/blink-dog.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=blink-dog"
+    },
+    "Blood Hawk": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=blood-hawk"
+    },
+    "Blue Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=blue-dragon-wyrmling"
+    },
+    "Blue Slaad": {
+        "image_url": "https://www.aidedd.org/dnd/images/blue-slaad.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=blue-slaad"
+    },
+    "Boar": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=boar"
+    },
+    "Bone Devil": {
+        "image_url": "https://www.aidedd.org/dnd/images/bone-devil.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bone-devil"
+    },
+    "Bone Naga": {
+        "image_url": "https://www.aidedd.org/dnd/images/bone-naga.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bone-naga"
+    },
+    "Brass Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=brass-dragon-wyrmling"
+    },
+    "Bronze Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bronze-dragon-wyrmling"
+    },
+    "Brown Bear": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=brown-bear"
+    },
+    "Bugbear": {
+        "image_url": "https://www.aidedd.org/dnd/images/bugbear.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bugbear"
+    },
+    "Bugbear Chief": {
+        "image_url": "https://www.aidedd.org/dnd/images/bugbear.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bugbear-chief"
+    },
+    "Bulette": {
+        "image_url": "https://www.aidedd.org/dnd/images/bulette.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bulette"
+    },
+    "Bullywug": {
+        "image_url": "https://www.aidedd.org/dnd/images/bullywug.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=bullywug"
+    },
+    "Cambion": {
+        "image_url": "https://www.aidedd.org/dnd/images/cambion.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cambion"
+    },
+    "Camel": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=camel"
+    },
+    "Carrion Crawler": {
+        "image_url": "https://www.aidedd.org/dnd/images/carrion-crawler.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=carrion-crawler"
+    },
+    "Cat": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cat"
+    },
+    "Centaur": {
+        "image_url": "https://www.aidedd.org/dnd/images/centaur.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=centaur"
+    },
+    "Chain Devil": {
+        "image_url": "https://www.aidedd.org/dnd/images/chain-devil.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=chain-devil"
+    },
+    "Chasme": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-chasme.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=chasme"
+    },
+    "Chimera": {
+        "image_url": "https://www.aidedd.org/dnd/images/chimera.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=chimera"
+    },
+    "Chuul": {
+        "image_url": "https://www.aidedd.org/dnd/images/chuul.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=chuul"
+    },
+    "Clay Golem": {
+        "image_url": "https://www.aidedd.org/dnd/images/clay-golem.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=clay-golem"
+    },
+    "Cloaker": {
+        "image_url": "https://www.aidedd.org/dnd/images/cloaker.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cloaker"
+    },
+    "Cloud Giant": {
+        "image_url": "https://www.aidedd.org/dnd/images/cloud-giant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cloud-giant"
+    },
+    "Cockatrice": {
+        "image_url": "https://www.aidedd.org/dnd/images/cockatrice.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cockatrice"
+    },
+    "Commoner": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=commoner"
+    },
+    "Constrictor Snake": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=constrictor-snake"
+    },
+    "Copper Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=copper-dragon-wyrmling"
+    },
+    "Couatl": {
+        "image_url": "https://www.aidedd.org/dnd/images/couatl.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=couatl"
+    },
+    "Crab": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=crab"
+    },
+    "Crawling Claw": {
+        "image_url": "https://www.aidedd.org/dnd/images/crawling-claw.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=crawling-claw"
+    },
+    "Crocodile": {
+        "image_url": "https://www.aidedd.org/dnd/images/crocodile.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=crocodile"
+    },
+    "Cult Fanatic": {
+        "image_url": "https://www.aidedd.org/dnd/images/cult-fanatic.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cult-fanatic"
+    },
+    "Cultist": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cultist"
+    },
+    "Cyclops": {
+        "image_url": "https://www.aidedd.org/dnd/images/cyclops.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=cyclops"
+    },
+    "Dao": {
+        "image_url": "https://www.aidedd.org/dnd/images/dao.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=dao"
+    },
+    "Darkmantle": {
+        "image_url": "https://www.aidedd.org/dnd/images/darkmantle.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=darkmantle"
+    },
+    "Death Dog": {
+        "image_url": "https://www.aidedd.org/dnd/images/death-dog.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=death-dog"
+    },
+    "Death Knight": {
+        "image_url": "https://www.aidedd.org/dnd/images/death-knight.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=death-knight"
+    },
+    "Death Slaad": {
+        "image_url": "https://www.aidedd.org/dnd/images/death-slaad.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=death-slaad"
+    },
+    "Death Tyrant": {
+        "image_url": "https://www.aidedd.org/dnd/images/death-tyrant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=death-tyrant"
+    },
+    "Deep Gnome (Svirfneblin)": {
+        "image_url": "https://www.aidedd.org/dnd/images/deep-gnome.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=deep-gnome-svirfneblin"
+    },
+    "Deer": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=deer"
+    },
+    "Demilich": {
+        "image_url": "https://www.aidedd.org/dnd/images/demilich.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=demilich"
+    },
+    "Deva": {
+        "image_url": "https://www.aidedd.org/dnd/images/deva.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=deva"
+    },
+    "Dire Wolf": {
+        "image_url": "https://www.aidedd.org/dnd/images/dire-wolf.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=dire-wolf"
+    },
+    "Displacer Beast": {
+        "image_url": "https://www.aidedd.org/dnd/images/displacer-beast.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=displacer-beast"
+    },
+    "Djinni": {
+        "image_url": "https://www.aidedd.org/dnd/images/djinni.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=djinni"
+    },
+    "Doppelganger": {
+        "image_url": "https://www.aidedd.org/dnd/images/doppelganger.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=doppelganger"
+    },
+    "Draft Horse": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=draft-horse"
+    },
+    "Dragon Turtle": {
+        "image_url": "https://www.aidedd.org/dnd/images/dragon-turtle.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=dragon-turtle"
+    },
+    "Dretch": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-dretch.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=dretch"
+    },
+    "Drider": {
+        "image_url": "https://www.aidedd.org/dnd/images/drider.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=drider"
+    },
+    "Drow": {
+        "image_url": "https://www.aidedd.org/dnd/images/drow.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=drow"
+    },
+    "Drow Elite Warrior": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=drow-elite-warrior"
+    },
+    "Drow Mage": {
+        "image_url": "https://www.aidedd.org/dnd/images/drow-mage.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=drow-mage"
+    },
+    "Drow Priestess of Lolth": {
+        "image_url": "https://www.aidedd.org/dnd/images/drow.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=drow-priestess-of-lolth"
+    },
+    "Druid": {
+        "image_url": "https://www.aidedd.org/dnd/images/druid.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=druid"
+    },
+    "Dryad": {
+        "image_url": "https://www.aidedd.org/dnd/images/dryad.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=dryad"
+    },
+    "Duergar": {
+        "image_url": "https://www.aidedd.org/dnd/images/duergar.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=duergar"
+    },
+    "Duodrone": {
+        "image_url": "https://www.aidedd.org/dnd/images/duodrone.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=duodrone"
+    },
+    "Dust Mephit": {
+        "image_url": "https://www.aidedd.org/dnd/images/dust-mephit.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=dust-mephit"
+    },
+    "Eagle": {
+        "image_url": "https://www.aidedd.org/dnd/images/eagle.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=eagle"
+    },
+    "Earth Elemental": {
+        "image_url": "https://www.aidedd.org/dnd/images/earth-elemental.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=earth-elemental"
+    },
+    "Efreeti": {
+        "image_url": "https://www.aidedd.org/dnd/images/efreeti.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=efreeti"
+    },
+    "Elephant": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=elephant"
+    },
+    "Elk": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=elk"
+    },
+    "Empyrean": {
+        "image_url": "https://www.aidedd.org/dnd/images/empyrean.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=empyrean"
+    },
+    "Erinyes": {
+        "image_url": "https://www.aidedd.org/dnd/images/erinyes.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=erinyes"
+    },
+    "Ettercap": {
+        "image_url": "https://www.aidedd.org/dnd/images/ettercap.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ettercap"
+    },
+    "Ettin": {
+        "image_url": "https://www.aidedd.org/dnd/images/ettin.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ettin"
+    },
+    "Faerie Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/faerie-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=faerie-dragon"
+    },
+    "Fire Elemental": {
+        "image_url": "https://www.aidedd.org/dnd/images/fire-elemental.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=fire-elemental"
+    },
+    "Fire Giant": {
+        "image_url": "https://www.aidedd.org/dnd/images/fire-giant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=fire-giant"
+    },
+    "Fire Snake": {
+        "image_url": "https://www.aidedd.org/dnd/images/fire-snake.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=fire-snake"
+    },
+    "Flameskull": {
+        "image_url": "https://www.aidedd.org/dnd/images/flameskull.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=flameskull"
+    },
+    "Flesh Golem": {
+        "image_url": "https://www.aidedd.org/dnd/images/flesh-golem.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=flesh-golem"
+    },
+    "Flumph": {
+        "image_url": "https://www.aidedd.org/dnd/images/flumph.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=flumph"
+    },
+    "Flying Snake": {
+        "image_url": "https://www.aidedd.org/dnd/images/flying-snake.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=flying-snake"
+    },
+    "Flying Sword": {
+        "image_url": "https://www.aidedd.org/dnd/images/flying-sword.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=flying-sword"
+    },
+    "Fomorian": {
+        "image_url": "https://www.aidedd.org/dnd/images/fomorian.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=fomorian"
+    },
+    "Frog": {
+        "image_url": "https://www.aidedd.org/dnd/images/frog.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=frog"
+    },
+    "Frost Giant": {
+        "image_url": "https://www.aidedd.org/dnd/images/frost-giant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=frost-giant"
+    },
+    "Galeb Duhr": {
+        "image_url": "https://www.aidedd.org/dnd/images/galeb-duhr.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=galeb-duhr"
+    },
+    "Gargoyle": {
+        "image_url": "https://www.aidedd.org/dnd/images/gargoyle.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gargoyle"
+    },
+    "Gas Spore": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gas-spore"
+    },
+    "Gelatinous Cube": {
+        "image_url": "https://www.aidedd.org/dnd/images/gelatinous-cube.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gelatinous-cube"
+    },
+    "Ghast": {
+        "image_url": "https://www.aidedd.org/dnd/images/ghast.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ghast"
+    },
+    "Ghost": {
+        "image_url": "https://www.aidedd.org/dnd/images/ghost.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ghost"
+    },
+    "Ghoul": {
+        "image_url": "https://www.aidedd.org/dnd/images/ghoul.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ghoul"
+    },
+    "Giant Ape": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-ape"
+    },
+    "Giant Badger": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-badger"
+    },
+    "Giant Bat": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-bat"
+    },
+    "Giant Boar": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-boar"
+    },
+    "Giant Centipede": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-centipede"
+    },
+    "Giant Constrictor Snake": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-constrictor-snake"
+    },
+    "Giant Crab": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-crab"
+    },
+    "Giant Crocodile": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-crocodile"
+    },
+    "Giant Eagle": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-eagle"
+    },
+    "Giant Elk": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-elk"
+    },
+    "Giant Fire Beetle": {
+        "image_url": "https://www.aidedd.org/dnd/images/giant-fire-beetle.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-fire-beetle"
+    },
+    "Giant Frog": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-frog"
+    },
+    "Giant Goat": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-goat"
+    },
+    "Giant Hyena": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-hyena"
+    },
+    "Giant Lizard": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-lizard"
+    },
+    "Giant Octopus": {
+        "image_url": "https://www.aidedd.org/dnd/images/octopus.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-octopus"
+    },
+    "Giant Owl": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-owl"
+    },
+    "Giant Poisonous Snake": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-poisonous-snake"
+    },
+    "Giant Rat": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-rat"
+    },
+    "Giant Scorpion": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-scorpion"
+    },
+    "Giant Sea Horse": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-sea-horse"
+    },
+    "Giant Shark": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-shark"
+    },
+    "Giant Spider": {
+        "image_url": "https://www.aidedd.org/dnd/images/giant-spider.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-spider"
+    },
+    "Giant Toad": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-toad"
+    },
+    "Giant Vulture": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-vulture"
+    },
+    "Giant Wasp": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-wasp"
+    },
+    "Giant Weasel": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-weasel"
+    },
+    "Giant Wolf Spider": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=giant-wolf-spider"
+    },
+    "Gibbering Mouther": {
+        "image_url": "https://www.aidedd.org/dnd/images/gibbering-mouther.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gibbering-mouther"
+    },
+    "Githyanki Knight": {
+        "image_url": "https://www.aidedd.org/dnd/images/githyanki.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=githyanki-knight"
+    },
+    "Githyanki Warrior": {
+        "image_url": "https://www.aidedd.org/dnd/images/githyanki.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=githyanki-warrior"
+    },
+    "Githzerai Monk": {
+        "image_url": "https://www.aidedd.org/dnd/images/githzerai.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=githzerai-monk"
+    },
+    "Githzerai Zerth": {
+        "image_url": "https://www.aidedd.org/dnd/images/githzerai.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=githzerai-zerth"
+    },
+    "Glabrezu": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-glabrezu.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=glabrezu"
+    },
+    "Gladiator": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gladiator"
+    },
+    "Gnoll": {
+        "image_url": "https://www.aidedd.org/dnd/images/gnoll.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gnoll"
+    },
+    "Gnoll Fang of Yeenoghu": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gnoll-fang-of-yeenoghu"
+    },
+    "Gnoll Pack Lord": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gnoll-pack-lord"
+    },
+    "Goat": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=goat"
+    },
+    "Goblin": {
+        "image_url": "https://www.aidedd.org/dnd/images/goblin.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=goblin"
+    },
+    "Goblin Boss": {
+        "image_url": "https://www.aidedd.org/dnd/images/goblin.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=goblin-boss"
+    },
+    "Gold Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gold-dragon-wyrmling"
+    },
+    "Gorgon": {
+        "image_url": "https://www.aidedd.org/dnd/images/gorgon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gorgon"
+    },
+    "Goristro": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-goristro.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=goristro"
+    },
+    "Gray Ooze": {
+        "image_url": "https://www.aidedd.org/dnd/images/gray-ooze.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gray-ooze"
+    },
+    "Gray Slaad": {
+        "image_url": "https://www.aidedd.org/dnd/images/gray-slaad.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gray-slaad"
+    },
+    "Green Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=green-dragon-wyrmling"
+    },
+    "Green Hag": {
+        "image_url": "https://www.aidedd.org/dnd/images/green-hag.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=green-hag"
+    },
+    "Green Slaad": {
+        "image_url": "https://www.aidedd.org/dnd/images/green-slaad.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=green-slaad"
+    },
+    "Grell": {
+        "image_url": "https://www.aidedd.org/dnd/images/grell.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=grell"
+    },
+    "Grick": {
+        "image_url": "https://www.aidedd.org/dnd/images/grick.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=grick"
+    },
+    "Grick alpha": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=grick-alpha"
+    },
+    "Griffon": {
+        "image_url": "https://www.aidedd.org/dnd/images/griffon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=griffon"
+    },
+    "Grimlock": {
+        "image_url": "https://www.aidedd.org/dnd/images/grimlock.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=grimlock"
+    },
+    "Guard": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=guard"
+    },
+    "Guardian Naga": {
+        "image_url": "https://www.aidedd.org/dnd/images/guardian-naga.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=guardian-naga"
+    },
+    "Gynosphinx": {
+        "image_url": "https://www.aidedd.org/dnd/images/gynosphinx.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=gynosphinx"
+    },
+    "Half-Ogre": {
+        "image_url": "https://www.aidedd.org/dnd/images/half-ogre.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=half-ogre"
+    },
+    "Half-Red Dragon Veteran": {
+        "image_url": "https://www.aidedd.org/dnd/images/half-red-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=half-red-dragon-veteran"
+    },
+    "Harpy": {
+        "image_url": "https://www.aidedd.org/dnd/images/harpy.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=harpy"
+    },
+    "Hawk": {
+        "image_url": "https://www.aidedd.org/dnd/images/hawk.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hawk"
+    },
+    "Hell Hound": {
+        "image_url": "https://www.aidedd.org/dnd/images/hell-hound.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hell-hound"
+    },
+    "Helmed Horror": {
+        "image_url": "https://www.aidedd.org/dnd/images/helmed-horror.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=helmed-horror"
+    },
+    "Hezrou": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-hezrou.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hezrou"
+    },
+    "Hill Giant": {
+        "image_url": "https://www.aidedd.org/dnd/images/hill-giant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hill-giant"
+    },
+    "Hippogriff": {
+        "image_url": "https://www.aidedd.org/dnd/images/hippogriff.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hippogriff"
+    },
+    "Hobgoblin": {
+        "image_url": "https://www.aidedd.org/dnd/images/hobgoblin.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hobgoblin"
+    },
+    "Hobgoblin Captain": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hobgoblin-captain"
+    },
+    "Hobgoblin Warlord": {
+        "image_url": "https://www.aidedd.org/dnd/images/hobgoblin.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hobgoblin-warlord"
+    },
+    "Homunculus": {
+        "image_url": "https://www.aidedd.org/dnd/images/homunculus.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=homunculus"
+    },
+    "Hook Horror": {
+        "image_url": "https://www.aidedd.org/dnd/images/hook-horror.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hook-horror"
+    },
+    "Horned Devil": {
+        "image_url": "https://www.aidedd.org/dnd/images/horned-devil.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=horned-devil"
+    },
+    "Hunter Shark": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hunter-shark"
+    },
+    "Hydra": {
+        "image_url": "https://www.aidedd.org/dnd/images/hydra.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hydra"
+    },
+    "Hyena": {
+        "image_url": "https://www.aidedd.org/dnd/images/hyena.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=hyena"
+    },
+    "Ice Devil": {
+        "image_url": "https://www.aidedd.org/dnd/images/ice-devil.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ice-devil"
+    },
+    "Ice Mephit": {
+        "image_url": "https://www.aidedd.org/dnd/images/ice-mephit.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ice-mephit"
+    },
+    "Imp": {
+        "image_url": "https://www.aidedd.org/dnd/images/imp.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=imp"
+    },
+    "Intellect Devourer": {
+        "image_url": "https://www.aidedd.org/dnd/images/intellect-devorer.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=intellect-devourer"
+    },
+    "Invisible Stalker": {
+        "image_url": "https://www.aidedd.org/dnd/images/invisible-stalker.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=invisible-stalker"
+    },
+    "Iron Golem": {
+        "image_url": "https://www.aidedd.org/dnd/images/iron-golem.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=iron-golem"
+    },
+    "Jackal": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=jackal"
+    },
+    "Jackalwere": {
+        "image_url": "https://www.aidedd.org/dnd/images/jackalwere.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=jackalwere"
+    },
+    "Kenku": {
+        "image_url": "https://www.aidedd.org/dnd/images/kenku.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=kenku"
+    },
+    "Killer Whale": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=killer-whale"
+    },
+    "Knight": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=knight"
+    },
+    "Kobold": {
+        "image_url": "https://www.aidedd.org/dnd/images/kobold.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=kobold"
+    },
+    "Kraken": {
+        "image_url": "https://www.aidedd.org/dnd/images/kraken.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=kraken"
+    },
+    "Kuo-toa": {
+        "image_url": "https://www.aidedd.org/dnd/images/kuo-toa.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=kuo-toa"
+    },
+    "Kuo-toa Archpriest": {
+        "image_url": "https://www.aidedd.org/dnd/images/kuo-toa-archpriest.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=kuo-toa-archpriest"
+    },
+    "Kuo-toa Whip": {
+        "image_url": "https://www.aidedd.org/dnd/images/kuo-toa-whip.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=kuo-toa-whip"
+    },
+    "Lamia": {
+        "image_url": "https://www.aidedd.org/dnd/images/lamia.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lamia"
+    },
+    "Lemure": {
+        "image_url": "https://www.aidedd.org/dnd/images/lemure.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lemure"
+    },
+    "Lich": {
+        "image_url": "https://www.aidedd.org/dnd/images/lich.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lich"
+    },
+    "Lion": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lion"
+    },
+    "Lizard": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lizard"
+    },
+    "Lizard King/Queen": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lizard-king-queen"
+    },
+    "Lizardfolk": {
+        "image_url": "https://www.aidedd.org/dnd/images/lizardfolk.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lizardfolk"
+    },
+    "Lizardfolk Shaman": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=lizardfolk-shaman"
+    },
+    "Mage": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mage"
+    },
+    "Magma Mephit": {
+        "image_url": "https://www.aidedd.org/dnd/images/magma-mephit.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=magma-mephit"
+    },
+    "Magmin": {
+        "image_url": "https://www.aidedd.org/dnd/images/magmin.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=magmin"
+    },
+    "Mammoth": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mammoth"
+    },
+    "Manes": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-manes.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=manes"
+    },
+    "Manticore": {
+        "image_url": "https://www.aidedd.org/dnd/images/manticore.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=manticore"
+    },
+    "Marid": {
+        "image_url": "https://www.aidedd.org/dnd/images/marid.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=marid"
+    },
+    "Marilith": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-marilith.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=marilith"
+    },
+    "Mastiff": {
+        "image_url": "https://www.aidedd.org/dnd/images/mastiff.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mastiff"
+    },
+    "Medusa": {
+        "image_url": "https://www.aidedd.org/dnd/images/medusa.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=medusa"
+    },
+    "Merfolk": {
+        "image_url": "https://www.aidedd.org/dnd/images/merfolk.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=merfolk"
+    },
+    "Merrow": {
+        "image_url": "https://www.aidedd.org/dnd/images/merrow.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=merrow"
+    },
+    "Mezzoloth": {
+        "image_url": "https://www.aidedd.org/dnd/images/mezzoloth.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mezzoloth"
+    },
+    "Mimic": {
+        "image_url": "https://www.aidedd.org/dnd/images/mimic.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mimic"
+    },
+    "Mind Flayer": {
+        "image_url": "https://www.aidedd.org/dnd/images/mind-flayer.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mind-flayer"
+    },
+    "Minotaur": {
+        "image_url": "https://www.aidedd.org/dnd/images/minotaur.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=minotaur"
+    },
+    "Minotaur Skeleton": {
+        "image_url": "https://www.aidedd.org/dnd/images/minotaur-skeleton.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=minotaur-skeleton"
+    },
+    "Monodrone": {
+        "image_url": "https://www.aidedd.org/dnd/images/monodrone.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=monodrone"
+    },
+    "Mud Mephit": {
+        "image_url": "https://www.aidedd.org/dnd/images/mud-mephit.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mud-mephit"
+    },
+    "Mule": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mule"
+    },
+    "Mummy": {
+        "image_url": "https://www.aidedd.org/dnd/images/mummy.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mummy"
+    },
+    "Mummy Lord": {
+        "image_url": "https://www.aidedd.org/dnd/images/mummy-lord.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=mummy-lord"
+    },
+    "Myconid adult": {
+        "image_url": "https://www.aidedd.org/dnd/images/myconid.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=myconid-adult"
+    },
+    "Myconid Sovereign": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=myconid-sovereign"
+    },
+    "Myconid sprout": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=myconid-sprout"
+    },
+    "Nalfeshnee": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-nalfeshnee.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=nalfeshnee"
+    },
+    "Needle Blight": {
+        "image_url": "https://www.aidedd.org/dnd/images/blight.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=needle-blight"
+    },
+    "Night Hag": {
+        "image_url": "https://www.aidedd.org/dnd/images/night-hag.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=night-hag"
+    },
+    "Nightmare": {
+        "image_url": "https://www.aidedd.org/dnd/images/nightmare.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=nightmare"
+    },
+    "Noble": {
+        "image_url": "https://www.aidedd.org/dnd/images/noble.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=noble"
+    },
+    "Nothic": {
+        "image_url": "https://www.aidedd.org/dnd/images/nothic.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=nothic"
+    },
+    "Nycaloth": {
+        "image_url": "https://www.aidedd.org/dnd/images/nycaloth.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=nycaloth"
+    },
+    "Ochre Jelly": {
+        "image_url": "https://www.aidedd.org/dnd/images/ochre-jelly.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ochre-jelly"
+    },
+    "Octopus": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=octopus"
+    },
+    "Ogre": {
+        "image_url": "https://www.aidedd.org/dnd/images/ogre.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ogre"
+    },
+    "Ogre Zombie": {
+        "image_url": "https://www.aidedd.org/dnd/images/ogre-zombie.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ogre-zombie"
+    },
+    "Oni": {
+        "image_url": "https://www.aidedd.org/dnd/images/oni.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=oni"
+    },
+    "Orc": {
+        "image_url": "https://www.aidedd.org/dnd/images/orc.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=orc"
+    },
+    "Orc Eye of Gruumsh": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=orc-eye-of-gruumsh"
+    },
+    "Orc War Chief": {
+        "image_url": "https://www.aidedd.org/dnd/images/orc.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=orc-war-chief"
+    },
+    "Orog": {
+        "image_url": "https://www.aidedd.org/dnd/images/orog.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=orog"
+    },
+    "Otyugh": {
+        "image_url": "https://www.aidedd.org/dnd/images/otyugh.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=otyugh"
+    },
+    "Owl": {
+        "image_url": "https://www.aidedd.org/dnd/images/owl.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=owl"
+    },
+    "Owlbear": {
+        "image_url": "https://www.aidedd.org/dnd/images/owlbear.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=owlbear"
+    },
+    "Panther": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=panther"
+    },
+    "Pegasus": {
+        "image_url": "https://www.aidedd.org/dnd/images/pegasus.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=pegasus"
+    },
+    "Pentadrone": {
+        "image_url": "https://www.aidedd.org/dnd/images/pentadrone.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=pentadrone"
+    },
+    "Peryton": {
+        "image_url": "https://www.aidedd.org/dnd/images/peryton.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=peryton"
+    },
+    "Phase Spider": {
+        "image_url": "https://www.aidedd.org/dnd/images/phase-spider.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=phase-spider"
+    },
+    "Piercer": {
+        "image_url": "https://www.aidedd.org/dnd/images/piercer.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=piercer"
+    },
+    "Pit Fiend": {
+        "image_url": "https://www.aidedd.org/dnd/images/pit-fiend.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=pit-fiend"
+    },
+    "Pixie": {
+        "image_url": "https://www.aidedd.org/dnd/images/pixie.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=pixie"
+    },
+    "Planetar": {
+        "image_url": "https://www.aidedd.org/dnd/images/planetar.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=planetar"
+    },
+    "Plesiosaurus": {
+        "image_url": "https://www.aidedd.org/dnd/images/plesiosaurus.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=plesiosaurus"
+    },
+    "Poisonous Snake": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=poisonous-snake"
+    },
+    "Polar Bear": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=polar-bear"
+    },
+    "Pony": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=pony"
+    },
+    "Priest": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=priest"
+    },
+    "Pseudodragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/pseudodragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=pseudodragon"
+    },
+    "Pteranodon": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=pteranodon"
+    },
+    "Purple Worm": {
+        "image_url": "https://www.aidedd.org/dnd/images/purple-worm.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=purple-worm"
+    },
+    "Quadrone": {
+        "image_url": "https://www.aidedd.org/dnd/images/quadrone.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=quadrone"
+    },
+    "Quaggoth": {
+        "image_url": "https://www.aidedd.org/dnd/images/quaggoth.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=quaggoth"
+    },
+    "Quaggoth spore servant": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=quaggoth-spore-servant"
+    },
+    "Quasit": {
+        "image_url": "https://www.aidedd.org/dnd/images/quasit.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=quasit"
+    },
+    "Quipper": {
+        "image_url": "https://www.aidedd.org/dnd/images/quipper.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=quipper"
+    },
+    "Rakshasa": {
+        "image_url": "https://www.aidedd.org/dnd/images/rakshasa.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=rakshasa"
+    },
+    "Rat": {
+        "image_url": "https://www.aidedd.org/dnd/images/rat.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=rat"
+    },
+    "Raven": {
+        "image_url": "https://www.aidedd.org/dnd/images/raven.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=raven"
+    },
+    "Red Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=red-dragon-wyrmling"
+    },
+    "Red Slaad": {
+        "image_url": "https://www.aidedd.org/dnd/images/red-slaad.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=red-slaad"
+    },
+    "Reef Shark": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=reef-shark"
+    },
+    "Remorhaz": {
+        "image_url": "https://www.aidedd.org/dnd/images/remorhaz.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=remorhaz"
+    },
+    "Revenant": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=revenant"
+    },
+    "Rhinoceros": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=rhinoceros"
+    },
+    "Riding Horse": {
+        "image_url": "https://www.aidedd.org/dnd/images/horse.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=riding-horse"
+    },
+    "Roc": {
+        "image_url": "https://www.aidedd.org/dnd/images/roc.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=roc"
+    },
+    "Roper": {
+        "image_url": "https://www.aidedd.org/dnd/images/roper.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=roper"
+    },
+    "Rug of Smothering": {
+        "image_url": "https://www.aidedd.org/dnd/images/rug-smothering.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=rug-of-smothering"
+    },
+    "Rust Monster": {
+        "image_url": "https://www.aidedd.org/dnd/images/rust-monster.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=rust-monster"
+    },
+    "Saber-Toothed Tiger": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=saber-toothed-tiger"
+    },
+    "Sahuagin": {
+        "image_url": "https://www.aidedd.org/dnd/images/sahuagin.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=sahuagin"
+    },
+    "Sahuagin Baron": {
+        "image_url": "https://www.aidedd.org/dnd/images/sahuagin-baron.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=sahuagin-baron"
+    },
+    "Sahuagin Priestess": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=sahuagin-priestess"
+    },
+    "Salamander": {
+        "image_url": "https://www.aidedd.org/dnd/images/salamander.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=salamander"
+    },
+    "Satyr": {
+        "image_url": "https://www.aidedd.org/dnd/images/satyr.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=satyr"
+    },
+    "Scarecrow": {
+        "image_url": "https://www.aidedd.org/dnd/images/scarecrow.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=scarecrow"
+    },
+    "Scorpion": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=scorpion"
+    },
+    "Scout": {
+        "image_url": "https://www.aidedd.org/dnd/images/scout.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=scout"
+    },
+    "Sea Hag": {
+        "image_url": "https://www.aidedd.org/dnd/images/sea-hag.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=sea-hag"
+    },
+    "Sea Horse": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=sea-horse"
+    },
+    "Shadow": {
+        "image_url": "https://www.aidedd.org/dnd/images/shadow.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=shadow"
+    },
+    "Shadow Demon": {
+        "image_url": "https://www.aidedd.org/dnd/images/shadow-demon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=shadow-demon"
+    },
+    "Shambling Mound": {
+        "image_url": "https://www.aidedd.org/dnd/images/shambling-mound.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=shambling-mound"
+    },
+    "Shield Guardian": {
+        "image_url": "https://www.aidedd.org/dnd/images/shield-guardian.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=shield-guardian"
+    },
+    "Shrieker": {
+        "image_url": "https://www.aidedd.org/dnd/images/shrieker.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=shrieker"
+    },
+    "Silver Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=silver-dragon-wyrmling"
+    },
+    "Skeleton": {
+        "image_url": "https://www.aidedd.org/dnd/images/skeleton.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=skeleton"
+    },
+    "Slaad Tadpole": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=slaad-tadpole"
+    },
+    "Smoke Mephit": {
+        "image_url": "https://www.aidedd.org/dnd/images/smoke-mephit.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=smoke-mephit"
+    },
+    "Solar": {
+        "image_url": "https://www.aidedd.org/dnd/images/solar.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=solar"
+    },
+    "Spectator": {
+        "image_url": "https://www.aidedd.org/dnd/images/spectator.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=spectator"
+    },
+    "Specter": {
+        "image_url": "https://www.aidedd.org/dnd/images/specter.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=specter"
+    },
+    "Spider": {
+        "image_url": "https://www.aidedd.org/dnd/images/spider.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=spider"
+    },
+    "Spined Devil": {
+        "image_url": "https://www.aidedd.org/dnd/images/spined-devil.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=spined-devil"
+    },
+    "Spirit Naga": {
+        "image_url": "https://www.aidedd.org/dnd/images/spirit-naga.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=spirit-naga"
+    },
+    "Sprite": {
+        "image_url": "https://www.aidedd.org/dnd/images/sprite.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=sprite"
+    },
+    "Spy": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=spy"
+    },
+    "Steam Mephit": {
+        "image_url": "https://www.aidedd.org/dnd/images/steam-mephit.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=steam-mephit"
+    },
+    "Stirge": {
+        "image_url": "https://www.aidedd.org/dnd/images/stirge.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=stirge"
+    },
+    "Stone Giant": {
+        "image_url": "https://www.aidedd.org/dnd/images/stone-giant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=stone-giant"
+    },
+    "Stone Golem": {
+        "image_url": "https://www.aidedd.org/dnd/images/stone-golem.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=stone-golem"
+    },
+    "Storm Giant": {
+        "image_url": "https://www.aidedd.org/dnd/images/storm-giant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=storm-giant"
+    },
+    "Succubus": {
+        "image_url": "https://www.aidedd.org/dnd/images/succubus.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=succubus"
+    },
+    "Swarm of Bats": {
+        "image_url": "https://www.aidedd.org/dnd/images/swarm-bats.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=swarm-of-bats"
+    },
+    "Swarm of Insects": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=swarm-of-insects"
+    },
+    "Swarm of Poisonous Snakes": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=swarm-of-poisonous-snakes"
+    },
+    "Swarm of Quippers": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=swarm-of-quippers"
+    },
+    "Swarm of Rats": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=swarm-of-rats"
+    },
+    "Swarm of Ravens": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=swarm-of-ravens"
+    },
+    "Tarrasque": {
+        "image_url": "https://www.aidedd.org/dnd/images/tarrasque.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=tarrasque"
+    },
+    "Thri-kreen": {
+        "image_url": "https://www.aidedd.org/dnd/images/thri-kreen.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=thri-kreen"
+    },
+    "Thug": {
+        "image_url": "https://www.aidedd.org/dnd/images/thug.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=thug"
+    },
+    "Tiger": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=tiger"
+    },
+    "Treant": {
+        "image_url": "https://www.aidedd.org/dnd/images/treant.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=treant"
+    },
+    "Tribal Warrior": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=tribal-warrior"
+    },
+    "Triceratops": {
+        "image_url": "https://www.aidedd.org/dnd/images/triceratops.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=triceratops"
+    },
+    "Tridrone": {
+        "image_url": "https://www.aidedd.org/dnd/images/tridrone.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=tridrone"
+    },
+    "Troglodyte": {
+        "image_url": "https://www.aidedd.org/dnd/images/troglodyte.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=troglodyte"
+    },
+    "Troll": {
+        "image_url": "https://www.aidedd.org/dnd/images/troll.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=troll"
+    },
+    "Twig Blight": {
+        "image_url": "https://www.aidedd.org/dnd/images/blight.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=twig-blight"
+    },
+    "Tyrannosaurus Rex": {
+        "image_url": "https://www.aidedd.org/dnd/images/tyrannosaurus-rex.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=tyrannosaurus-rex"
+    },
+    "Ultroloth": {
+        "image_url": "https://www.aidedd.org/dnd/images/ultroloth.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=ultroloth"
+    },
+    "Umber Hulk": {
+        "image_url": "https://www.aidedd.org/dnd/images/umber-hulk.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=umber-hulk"
+    },
+    "Unicorn": {
+        "image_url": "https://www.aidedd.org/dnd/images/unicorn.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=unicorn"
+    },
+    "Vampire": {
+        "image_url": "https://www.aidedd.org/dnd/images/vampire.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=vampire"
+    },
+    "Vampire Spawn": {
+        "image_url": "https://www.aidedd.org/dnd/images/vampire-spawn.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=vampire-spawn"
+    },
+    "Veteran": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=veteran"
+    },
+    "Vine Blight": {
+        "image_url": "https://www.aidedd.org/dnd/images/blight.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=vine-blight"
+    },
+    "Violet Fungus": {
+        "image_url": "https://www.aidedd.org/dnd/images/violet-fungus.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=violet-fungus"
+    },
+    "Vrock": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-vrock.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=vrock"
+    },
+    "Vulture": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=vulture"
+    },
+    "Warhorse": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=warhorse"
+    },
+    "Warhorse Skeleton": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=warhorse-skeleton"
+    },
+    "Water Elemental": {
+        "image_url": "https://www.aidedd.org/dnd/images/water-elemental.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=water-elemental"
+    },
+    "Water Weird": {
+        "image_url": "https://www.aidedd.org/dnd/images/water-weird.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=water-weird"
+    },
+    "Weasel": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=weasel"
+    },
+    "Werebear": {
+        "image_url": "https://www.aidedd.org/dnd/images/wereBear.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=werebear"
+    },
+    "Wereboar": {
+        "image_url": "https://www.aidedd.org/dnd/images/wereBoar.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=wereboar"
+    },
+    "Wererat": {
+        "image_url": "https://www.aidedd.org/dnd/images/wereRat.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=wererat"
+    },
+    "Weretiger": {
+        "image_url": "https://www.aidedd.org/dnd/images/wereTiger.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=weretiger"
+    },
+    "Werewolf": {
+        "image_url": "https://www.aidedd.org/dnd/images/wereWolf.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=werewolf"
+    },
+    "White Dragon Wyrmling": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=white-dragon-wyrmling"
+    },
+    "Wight": {
+        "image_url": "https://www.aidedd.org/dnd/images/wight.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=wight"
+    },
+    "Will-o'-Wisp": {
+        "image_url": "https://www.aidedd.org/dnd/images/will-o-wisp.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=will-o--wisp"
+    },
+    "Winged Kobold": {
+        "image_url": "https://www.aidedd.org/dnd/images/winged-kobold.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=winged-kobold"
+    },
+    "Winter Wolf": {
+        "image_url": "https://www.aidedd.org/dnd/images/winter-wolf.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=winter-wolf"
+    },
+    "Wolf": {
+        "image_url": "https://www.aidedd.org/dnd/images/dire-wolf.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=wolf"
+    },
+    "Worg": {
+        "image_url": "https://www.aidedd.org/dnd/images/worg.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=worg"
+    },
+    "Wraith": {
+        "image_url": "https://www.aidedd.org/dnd/images/wraith.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=wraith"
+    },
+    "Wyvern": {
+        "image_url": "https://www.aidedd.org/dnd/images/wyvern.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=wyvern"
+    },
+    "Xorn": {
+        "image_url": "https://www.aidedd.org/dnd/images/xorn.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=xorn"
+    },
+    "Yeti": {
+        "image_url": "https://www.aidedd.org/dnd/images/yeti.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=yeti"
+    },
+    "Yochlol": {
+        "image_url": "https://www.aidedd.org/dnd/images/demon-yochlol.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=yochlol"
+    },
+    "Young Black Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/black-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-black-dragon"
+    },
+    "Young Blue Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/blue-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-blue-dragon"
+    },
+    "Young Brass Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/brass-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-brass-dragon"
+    },
+    "Young Bronze Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/bronze-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-bronze-dragon"
+    },
+    "Young Copper Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/copper-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-copper-dragon"
+    },
+    "Young Gold Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/gold-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-gold-dragon"
+    },
+    "Young Green Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/green-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-green-dragon"
+    },
+    "Young Red Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/red-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-red-dragon"
+    },
+    "Young Red Shadow Dragon": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-red-shadow-dragon"
+    },
+    "Young Remorhaz": {
+        "image_url": null,
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-remorhaz"
+    },
+    "Young Silver Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/silver-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-silver-dragon"
+    },
+    "Young White Dragon": {
+        "image_url": "https://www.aidedd.org/dnd/images/white-dragon.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=young-white-dragon"
+    },
+    "Yuan-ti Abomination": {
+        "image_url": "https://www.aidedd.org/dnd/images/yuan-ti-abomination.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=yuan-ti-abomination"
+    },
+    "Yuan-ti Malison": {
+        "image_url": "https://www.aidedd.org/dnd/images/yuan-ti-malison.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=yuan-ti-malison"
+    },
+    "Yuan-ti Pureblood": {
+        "image_url": "https://www.aidedd.org/dnd/images/yuan-ti-pureblood.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=yuan-ti-pureblood"
+    },
+    "Zombie": {
+        "image_url": "https://www.aidedd.org/dnd/images/zombie.jpg",
+        "statblock_url": "https://www.aidedd.org/dnd/monstres.php?vo=zombie"
+    }
+}
