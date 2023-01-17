@@ -19,10 +19,8 @@ function registerSettings() {
       onChange: async (value) => {
         console.log(game.kelsUtilities.hooksTurnIntoItemPiles);
         if (game.kelsUtilities.hooksTurnIntoItemPiles.size == 0) {
-          game.kelsUtilities.log('Registering "TurnIntoItemPiles" hooks...');
           game.kelsUtilities.registerHooksTurnIntoItemPiles();
         } else {
-          game.kelsUtilities.log('Unregistering "TurnIntoItemPiles" hooks...');
           game.kelsUtilities.unregisterHooksTurnIntoItemPiles();
         }
       },
@@ -53,10 +51,8 @@ function registerSettings() {
     type: Boolean,
     onChange: async (value) => {
       if (game.kelsUtilities.hooksShowMonsterArt.size == 0) {
-        game.kelsUtilities.log('Registering "ShowMonsterArt" hooks...');
         game.kelsUtilities.registerHooksShowMonsterArt();
       } else {
-        game.kelsUtilities.log('Unregistering "ShowMonsterArt" hooks...');
         game.kelsUtilities.unregisterHooksShowMonsterArt();
       }
     },

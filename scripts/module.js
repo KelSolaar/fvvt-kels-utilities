@@ -20,12 +20,10 @@ Hooks.once("ready", async function () {
   game.kelsUtilities = new KelsUtilities();
 
   if (getSetting("enableEquipmentQualityIntegration")) {
-    log('Registering "TurnIntoItemPiles" hooks...');
     game.kelsUtilities.registerHooksTurnIntoItemPiles();
   }
 
   if (getSetting("enableShowMonsterArt")) {
-    log('Registering "ShowMonsterArt" hooks...');
     game.kelsUtilities.registerHooksShowMonsterArt();
   }
 

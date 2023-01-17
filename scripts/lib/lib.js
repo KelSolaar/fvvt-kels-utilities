@@ -16,7 +16,11 @@ class KelsUtilities {
     this.hooksShowMonsterArt = new Map();
   }
 
-  tableResultToEquipmentQuality(tableResult) {
+  static isModuleActive(moduleName) {
+    return Boolean(game.modules.get(moduleName)?.active);
+  }
+
+  static tableResultToEquipmentQuality(tableResult) {
     const range = tableResult.results[0].range;
 
     for (const equipmentQuality of Constants.equipmentQuality) {
@@ -27,6 +31,13 @@ class KelsUtilities {
   }
 
   async modifyTokenEquipementQuality(token) {
+    let gmState = null;
+    if (KelsUtilities.isModuleActive("df-manual-rolls")) {
+      gmState = game.settings.get("df-manual-rolls", "gm");
+      if (gmState !== "disabled")
+        await game.settings.set("df-manual-rolls", "pc", "disabled");
+    }
+
     const pack = `${Constants.moduleName}.${Constants.packs.rollTables}`;
     const tableEquipmentQuality = await game.packs
       .get(pack)
@@ -35,7 +46,8 @@ class KelsUtilities {
     for (let item of token.actor.items) {
       log(`Updating ${item}`);
       const results = await tableEquipmentQuality.roll();
-      const equipmentQuality = this.tableResultToEquipmentQuality(results);
+      const equipmentQuality =
+        KelsUtilities.tableResultToEquipmentQuality(results);
 
       if (item.system.price?.value != undefined) {
         await item.update({
@@ -45,9 +57,14 @@ class KelsUtilities {
         });
       }
     }
+
+    if (KelsUtilities.isModuleActive("df-manual-rolls")) {
+      await game.settings.set("df-manual-rolls", "pc", gmState);
+    }
   }
 
   async registerHooksTurnIntoItemPiles() {
+    log('Registering "TurnIntoItemPiles" hooks...');
     let hookName = "item-piles-turnIntoItemPiles";
     this.hooksTurnIntoItemPiles.set(
       hookName,
@@ -68,6 +85,7 @@ class KelsUtilities {
   }
 
   async unregisterHooksTurnIntoItemPiles() {
+    log('Unregistering "TurnIntoItemPiles" hooks...');
     for (let [key, hook] of this.hooksTurnIntoItemPiles.entries()) {
       log(`Unregistering ${key} with ${hook} id.`);
       Hooks.off(key, hook);
@@ -78,6 +96,7 @@ class KelsUtilities {
   }
 
   async registerHooksShowMonsterArt() {
+    log('Registering "ShowMonsterArt" hooks...');
     const monsterImageUrls = await fetch(
       game.kelsUtilities.Constants.pathJsonMonsterImageUrls
     ).then((response) => response.json());
@@ -126,6 +145,7 @@ class KelsUtilities {
   }
 
   async unregisterHooksShowMonsterArt() {
+    log('Unregistering "ShowMonsterArt" hooks...');
     for (let [key, hook] of this.hooksShowMonsterArt.entries()) {
       log(`Unregistering ${key} with ${hook} id.`);
       Hooks.off(key, hook);
