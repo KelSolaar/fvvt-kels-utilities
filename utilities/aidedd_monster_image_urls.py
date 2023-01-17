@@ -35,16 +35,23 @@ __all__ = [
 URL_BASE_ROOT = "https://www.aidedd.org/dnd-filters/monsters.php"
 URL_BASE_MONSTER_STATBLOCK = "https://www.aidedd.org/dnd/monstres.php"
 URL_BASE_MONSTER_IMAGE = "https://www.aidedd.org/dnd/images/"
-PATH_JSON = (
-    Path(__file__).parent.parent / "resources" / "monster_image_urls.json"
-)
+PATH_JSON = Path(__file__).parent.parent / "resources" / "monster_image_urls.json"
 
 
 def parse_urls(html_soup):
-    return (
-        item["href"] if item.get("href") is not None else item["src"]
-        for item in html_soup.select('[href^="http"], [src^="http"]')
-    )
+    urls = []
+
+    for link in html_soup.find_all("a"):
+        url = link.get("href")
+        if url is not None:
+            urls.append(url)
+
+    for link in html_soup.find_all("img"):
+        url = link.get("src")
+        if url is not None:
+            urls.append(url)
+
+    return urls
 
 
 def parse_h1s(html_soup):
@@ -84,8 +91,12 @@ def aidedd_monster_image_urls():
         if not image_url:
             continue
 
-        aidedd_monsters[aidedd_monster_name(html_soup)] = {
-            "image_url": aidedd_monster_image_url(html_soup),
+        monster_name = aidedd_monster_name(html_soup)
+
+        print(f'Adding "{monster_name}" monster data...')
+
+        aidedd_monsters[monster_name] = {
+            "image_url": image_url,
             "statblock_url": statblock_url,
         }
 
@@ -104,4 +115,4 @@ if __name__ == "__main__":
         monsters = aidedd_monsters
 
     with open(PATH_JSON, "w") as json_file:
-        json.dump(monsters, json_file, indent=4)
+        json.dump(dict(sorted(monsters.items())), json_file, indent=2)
