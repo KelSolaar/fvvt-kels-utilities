@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """
-Aide DD - Monster Image URLs
-============================
+Aide DD - Monster Resources
+===========================
 
-This Python module retrieves the monster image URLs from
-`AideDD - Monsters 5e <https://www.aidedd.org/dnd-filters/monsters.php>`__.
+This Python module retrieves the monster resources, e.g. image and stat block
+urls, from `AideDD - Monsters 5e <https://www.aidedd.org/dnd-filters/monsters.php>`__.
 """
 
 import requests
@@ -29,13 +29,13 @@ __all__ = [
     "aidedd_monster_statblock_urls",
     "aidedd_monster_name",
     "aidedd_monster_image_url",
-    "aidedd_monster_image_urls",
+    "aidedd_monster_resources",
 ]
 
 URL_BASE_ROOT = "https://www.aidedd.org/dnd-filters/monsters.php"
 URL_BASE_MONSTER_STATBLOCK = "https://www.aidedd.org/dnd/monstres.php"
 URL_BASE_MONSTER_IMAGE = "https://www.aidedd.org/dnd/images/"
-PATH_JSON = Path(__file__).parent.parent / "resources" / "monster_image_urls.json"
+PATH_JSON = Path(__file__).parent.parent / "resources" / "monster_resources.json"
 
 
 def parse_urls(html_soup):
@@ -79,7 +79,7 @@ def aidedd_monster_image_url(html_soup):
             return url
 
 
-def aidedd_monster_image_urls():
+def aidedd_monster_resources():
     aidedd_monsters = {}
     for statblock_url in tqdm(
         aidedd_monster_statblock_urls(
@@ -104,7 +104,7 @@ def aidedd_monster_image_urls():
 
 
 if __name__ == "__main__":
-    aidedd_monsters = aidedd_monster_image_urls()
+    aidedd_monsters = aidedd_monster_resources()
 
     if PATH_JSON.exists():
         with open(PATH_JSON, "r") as json_file:

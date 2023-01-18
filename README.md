@@ -27,14 +27,14 @@ This module implements support for equipment (item) quality to [Item Piles](http
 
 ## Monster Art
 
-This module adds a new action to the *NPC* sheets that allows showing to the players available monster art.
-The current art data can be sourced from the following locations:
+This module adds a new action to the *NPC* sheets that allows showing to the players available monsters art or opening their stat blocks in the browser.
+
+The current resources data is sourced from the following locations:
 
 -   [DnD Beyond - Monsters](https://www.dndbeyond.com/monsters)
 -   [AideDD - Monsters 5e](https://www.aidedd.org/dnd-filters/monsters.php)
 
-Various Python scripts from the [Utilities](Utilities/) can be used to update the
-monster art data.
+Various Python scripts from the [utilities](utilities/) directory can be used to update the monster art data.
 
 # About
 

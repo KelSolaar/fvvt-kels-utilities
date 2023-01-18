@@ -11,8 +11,8 @@ Hooks.once("init", async function () {
     "user",
     `${Constants.path}/resources/`
   );
-  Constants.pathJsonMonsterImageUrls = Constants.rootResources.files.find(
-    (files) => files.includes("monster_image_urls.json")
+  Constants.pathJsonMonsterResources = Constants.rootResources.files.find(
+    (files) => files.includes("monster_resources.json")
   );
 });
 
@@ -25,6 +25,10 @@ Hooks.once("ready", async function () {
 
   if (getSetting("enableShowMonsterArt")) {
     game.kelsUtilities.registerHooksShowMonsterArt();
+  }
+
+  if (getSetting("enableOpenMonsterStatblock")) {
+    game.kelsUtilities.registerHooksOpenMonsterStatblock();
   }
 
   log("Module is ready!");
@@ -41,7 +45,7 @@ Hooks.on("renderSettingsConfig", (app, html, data) => {
     );
   $("<div>")
     .addClass("form-group group-header")
-    .html("Monster Art")
+    .html("NPC Sheet Actions")
     .insertBefore(
       $(`[name="${Constants.moduleName}.enableShowMonsterArt"]`).parents(
         "div.form-group:first"

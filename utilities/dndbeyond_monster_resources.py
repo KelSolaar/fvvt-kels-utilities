@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """
-DnD Beyond - Monster Image URLs
-===============================
+DnD Beyond - Monster Resources
+==============================
 
-This Python module retrieves the monster image URLs from
-`DnD Beyond <https://www.dndbeyond.com/monsters>`__.
+This Python module retrieves the monster resources, e.g. image and stat block
+urls, from `DnD Beyond <https://www.dndbeyond.com/monsters>`__.
 
 Notes
 -----
@@ -37,7 +37,7 @@ __all__ = [
     "urljoin",
     "parse_urls",
     "dndbeyond_session",
-    "dndbeyond_monster_image_urls",
+    "dndbeyond_monster_resources",
 ]
 
 URL_BASE_ROOT = "https://www.dndbeyond.com"
@@ -49,7 +49,7 @@ USER_AGENT = (
     "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 "
     "Safari/605.1.15"
 )
-PATH_JSON = Path(__file__).parent.parent / "resources" / "monster_image_urls.json"
+PATH_JSON = Path(__file__).parent.parent / "resources" / "monster_resources.json"
 
 
 def urljoin(*uris):
@@ -88,7 +88,7 @@ def dndbeyond_session(cobalt_cookie, user_agent=USER_AGENT):
     return session
 
 
-def dndbeyond_monster_image_urls(session, min_sleep=2, max_sleep=5, reverse=False):
+def dndbeyond_monster_resources(session, min_sleep=2, max_sleep=5, reverse=False):
     html_soup = BeautifulSoup(
         session.get(urljoin(URL_BASE_ROOT, URL_BASE_MONSTERS_ROOT)).content, "lxml"
     )
@@ -154,7 +154,7 @@ def dndbeyond_monster_image_urls(session, min_sleep=2, max_sleep=5, reverse=Fals
 if __name__ == "__main__":
     import sys
 
-    dndbeyond_monsters = dndbeyond_monster_image_urls(
+    dndbeyond_monsters = dndbeyond_monster_resources(
         dndbeyond_session(sys.argv[1]), reverse=False
     )
 

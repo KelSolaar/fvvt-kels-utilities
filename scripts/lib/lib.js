@@ -14,13 +14,20 @@ class KelsUtilities {
 
     this.hooksTurnIntoItemPiles = new Map();
     this.hooksShowMonsterArt = new Map();
+    this.hooksOpenMonsterStatblock = new Map();
   }
 
-  static isModuleActive(moduleName) {
+  isModuleActive(moduleName) {
     return Boolean(game.modules.get(moduleName)?.active);
   }
 
-  static tableResultToEquipmentQuality(tableResult) {
+  async monsterResources() {
+    return await fetch(Constants.pathJsonMonsterResources).then((response) =>
+      response.json()
+    );
+  }
+
+  tableResultToEquipmentQuality(tableResult) {
     const range = tableResult.results[0].range;
 
     for (const equipmentQuality of Constants.equipmentQuality) {
@@ -32,7 +39,7 @@ class KelsUtilities {
 
   async modifyTokenEquipementQuality(token) {
     let gmState = null;
-    if (KelsUtilities.isModuleActive("df-manual-rolls")) {
+    if (this.isModuleActive("df-manual-rolls")) {
       gmState = game.settings.get("df-manual-rolls", "gm");
       if (gmState !== "disabled")
         await game.settings.set("df-manual-rolls", "pc", "disabled");
@@ -46,8 +53,7 @@ class KelsUtilities {
     for (let item of token.actor.items) {
       log(`Updating ${item}`);
       const results = await tableEquipmentQuality.roll();
-      const equipmentQuality =
-        KelsUtilities.tableResultToEquipmentQuality(results);
+      const equipmentQuality = this.tableResultToEquipmentQuality(results);
 
       if (item.system.price?.value != undefined) {
         await item.update({
@@ -58,13 +64,14 @@ class KelsUtilities {
       }
     }
 
-    if (KelsUtilities.isModuleActive("df-manual-rolls")) {
+    if (this.isModuleActive("df-manual-rolls")) {
       await game.settings.set("df-manual-rolls", "pc", gmState);
     }
   }
 
   async registerHooksTurnIntoItemPiles() {
     log('Registering "TurnIntoItemPiles" hooks...');
+
     let hookName = "item-piles-turnIntoItemPiles";
     this.hooksTurnIntoItemPiles.set(
       hookName,
@@ -86,10 +93,12 @@ class KelsUtilities {
 
   async unregisterHooksTurnIntoItemPiles() {
     log('Unregistering "TurnIntoItemPiles" hooks...');
+
     for (let [key, hook] of this.hooksTurnIntoItemPiles.entries()) {
       log(`Unregistering ${key} with ${hook} id.`);
       Hooks.off(key, hook);
     }
+
     this.hooksTurnIntoItemPiles = new Map();
 
     return this.hooksTurnIntoItemPiles;
@@ -97,62 +106,104 @@ class KelsUtilities {
 
   async registerHooksShowMonsterArt() {
     log('Registering "ShowMonsterArt" hooks...');
-    const monsterImageUrls = await fetch(
-      game.kelsUtilities.Constants.pathJsonMonsterImageUrls
-    ).then((response) => response.json());
 
-    const npcSheetNames = Object.values(CONFIG.Actor.sheetClasses.npc)
-      .map((sheetClass) => sheetClass.cls)
-      .map((sheet) => sheet.name);
+    let monsterResources = await this.monsterResources();
 
-    npcSheetNames.forEach((sheetName) => {
-      let hookName = `render${sheetName}`;
-      this.hooksShowMonsterArt.set(
-        hookName,
-        Hooks.on(hookName, async (app, html, data) => {
-          if (!data.owner || !data.actor) return;
+    let hookName = "getActorSheetHeaderButtons";
+    this.hooksShowMonsterArt.set(
+      hookName,
+      Hooks.on(hookName, async (actorSheet, buttons) => {
+        if (!game.user.isGM) {
+          return;
+        }
 
-          let monsterName = data.actor.name;
-          if (!(monsterName in monsterImageUrls)) {
-            log(
-              `"${monsterName}" monster name was not found in monster image urls!`
-            );
-            return;
-          }
-
-          let monsterImageUrl = monsterImageUrls[monsterName].image_url;
-          let button = $(
-            `<a class="kels-utilities-open-art"><i class="fa-solid fa-brush"></i> Art</a>`
+        let monsterName = actorSheet.object.name;
+        if (!(monsterName in monsterResources)) {
+          log(
+            `"${monsterName}" monster name was not found in monster resources!`
           );
-          button.click((event) => {
-            const imagePopout = new ImagePopout(monsterImageUrl, {
+          return;
+        }
+        let monsterArtUrl = monsterResources[monsterName].image_url;
+
+        buttons.unshift({
+          label: "Art",
+          icon: "fa-solid fa-brush",
+          class: "kels-utilities-show-monster-art",
+          onclick: () => {
+            const imagePopout = new ImagePopout(monsterArtUrl, {
               title: monsterName,
             });
             imagePopout.render(true);
             imagePopout.shareImage();
-          });
-
-          html.closest(".app").find(".kels-utilities-open-art").remove();
-          let titleElement = html.closest(".app").find(".window-title");
-          if (!app._minimized) {
-            button.insertAfter(titleElement);
-          }
-        })
-      );
-    });
+          },
+        });
+      })
+    );
 
     return this.hooksShowMonsterArt;
   }
 
   async unregisterHooksShowMonsterArt() {
     log('Unregistering "ShowMonsterArt" hooks...');
+
     for (let [key, hook] of this.hooksShowMonsterArt.entries()) {
       log(`Unregistering ${key} with ${hook} id.`);
       Hooks.off(key, hook);
     }
+
     this.hooksShowMonsterArt = new Map();
 
     return this.hooksShowMonsterArt;
+  }
+
+  async registerHooksOpenMonsterStatblock() {
+    log('Registering "OpenMonsterStatblock" hooks...');
+
+    let monsterResources = await this.monsterResources();
+
+    let hookName = "getActorSheetHeaderButtons";
+    this.hooksOpenMonsterStatblock.set(
+      hookName,
+      Hooks.on(hookName, async (actorSheet, buttons) => {
+        if (!game.user.isGM) {
+          return;
+        }
+
+        let monsterName = actorSheet.object.name;
+        if (!(monsterName in monsterResources)) {
+          log(
+            `"${monsterName}" monster name was not found in monster resources!`
+          );
+          return;
+        }
+        let monsterStatblockUrl = monsterResources[monsterName].statblock_url;
+
+        buttons.unshift({
+          label: "Stat Block",
+          icon: "fa fa-th",
+          class: "kels-utilities-open-monster-statblock",
+          onclick: () => {
+            window.open(monsterStatblockUrl);
+          },
+        });
+      })
+    );
+
+    return this.hooksOpenMonsterStatblock;
+  }
+
+  async unregisterHooksOpenMonsterStatblock() {
+    log('Unregistering "OpenMonsterStatblock" hooks...');
+
+    for (let [key, hook] of this.hooksOpenMonsterStatblock.entries()) {
+      log(`Unregistering ${key} with ${hook} id.`);
+      Hooks.off(key, hook);
+    }
+
+    this.hooksOpenMonsterStatblock = new Map();
+
+    return this.hooksOpenMonsterStatblock;
   }
 }
 

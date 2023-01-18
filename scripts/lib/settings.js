@@ -43,7 +43,7 @@ function registerSettings() {
   }
 
   game.settings.register(Constants.moduleName, "enableShowMonsterArt", {
-    name: "Enable Show Monster Art Action",
+    name: "Enable the \"Show Monster Art\" action",
     hint: "When enabled, this adds a new action to the \"NPC\" sheets that allows showing to the players available monster art.",
     scope: "world",
     config: true,
@@ -54,6 +54,22 @@ function registerSettings() {
         game.kelsUtilities.registerHooksShowMonsterArt();
       } else {
         game.kelsUtilities.unregisterHooksShowMonsterArt();
+      }
+    },
+  });
+
+  game.settings.register(Constants.moduleName, "enableOpenMonsterStatblock", {
+    name: "Enable the \"Open Monster Art\" action",
+    hint: "When enabled, this adds a new action to the \"NPC\" sheets that allows opening the available monster stat block in a browser.",
+    scope: "world",
+    config: true,
+    default: true,
+    type: Boolean,
+    onChange: async (value) => {
+      if (game.kelsUtilities.hooksOpenMonsterStatblock.size == 0) {
+        game.kelsUtilities.registerHooksOpenMonsterStatblock();
+      } else {
+        game.kelsUtilities.unregisterHooksOpenMonsterStatblock();
       }
     },
   });
