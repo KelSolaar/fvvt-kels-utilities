@@ -22,18 +22,18 @@ When a token is turned into an *Item Pile*, the quality of its items is modified
 
 ## Monster Artwork and Statblock
 
-This module adds new actions and context menu entries to the *NPC* sheets that allows showing to the players available monsters art or opening their stat blocks in the browser.
+This module adds new actions and context menu entries to the *NPC* sheets that allows showing to the players available online monsters artwork or opening their stat blocks in the browser.
 
 ![NPC Sheet Actions](images/npc-sheet-actions.png)
 
 ![NPC Context Menu Entries](images/npc-context-menu-entries.png)
 
-The current resources data is sourced from the following locations:
+The current resource urls are sourced from the following locations:
 
 -   [DnD Beyond - Monsters](https://www.dndbeyond.com/monsters)
 -   [AideDD - Monsters 5e](https://www.aidedd.org/dnd-filters/monsters.php)
 
-Various Python scripts from the [utilities](utilities/) directory can be used to update the monster art data.
+Various Python scripts from the [utilities](utilities/) directory can be used to update the resource urls.
 
 ## Miscellaneous
 
