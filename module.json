@@ -10,31 +10,34 @@
     "verified": 10,
     "maximum": 11
   },
-  "authors": [{
-    "name": "Thomas Mansencal",
-    "url": "https://github.com/KelSolaar",
-    "discord": "discordID#0001"
-  }],
+  "authors": [
+    {
+      "name": "Thomas Mansencal",
+      "url": "https://github.com/KelSolaar",
+      "discord": "discordID#0001"
+    }
+  ],
   "relationships": {
     "systems": [],
-    "requires": [{
-      "id": "item-piles",
-      "type": "module"
-    }]
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module"
+      }
+    ]
   },
-  "esmodules": [
-    "scripts/module.js"
-  ],
+  "esmodules": ["scripts/module.js"],
   "scripts": [],
-  "styles": [
-    "styles/module.css"
+  "styles": ["styles/module.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
   ],
-  "languages": [{
-    "lang": "en",
-    "name": "English",
-    "path": "languages/en.json"
-  }],
-  "packs": [{
+  "packs": [
+    {
       "label": "Kel's Utilities: Roll Tables",
       "name": "kels-utilities-roll-tables",
       "path": "./packs/kels-utilities-roll-tables.db",
@@ -43,12 +46,16 @@
     }
   ],
   "url": "https://github.com/KelSolaar/fvvt-kels-utilities.git",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [{
-    "type": "icon",
-    "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-  }]
+  "manifest": "https://github.com/KelSolaar/fvvt-kels-utilities/releases/latest/download/manifest.json",
+  "download": "https://github.com/KelSolaar/fvvt-kels-utilities/releases/latest/download/module.zip",
+  "license": "https://github.com/KelSolaar/fvvt-kels-utilities/blob/master/LICENSE",
+  "readme": "https://github.com/KelSolaar/fvvt-kels-utilities/blob/master/README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ],
+  "bugs": "https://github.com/KelSolaar/fvvt-kels-utilities/issues",
+  "allowBugReporter": true
 }
