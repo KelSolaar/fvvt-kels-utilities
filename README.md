@@ -2,7 +2,7 @@
 
 # Kel's Utilities
 
-A [Foundry VTT](https://foundryvtt.com) module containing various utilities I wrote to improve the flow.
+A [Foundry VTT](https://foundryvtt.com) module containing various utilities I wrote to improve the gameplay.
 
 ## Equipment Quality
 
@@ -18,7 +18,9 @@ When a token is turned into an *Item Pile*, the quality of its items is modified
 | 56-65   | 10%      | Terrible Quality (Cracked, Warped)   | 0.1×  |
 | 66-100  | 35%      | Destroyed                            | 0×    |
 
-## Monster Art
+![Equipment Quality - Item Piles](images/equipment-quality-item-piles.png)
+
+## Monster Artwork and Statblock
 
 This module adds new actions and context menu entries to the *NPC* sheets that allows showing to the players available monsters art or opening their stat blocks in the browser.
 
@@ -32,6 +34,10 @@ The current resources data is sourced from the following locations:
 -   [AideDD - Monsters 5e](https://www.aidedd.org/dnd-filters/monsters.php)
 
 Various Python scripts from the [utilities](utilities/) directory can be used to update the monster art data.
+
+## Miscellaneous
+
+My theme for [lib-themer](https://github.com/mouse0270/lib-themer) is available along with its companion stylesheet file in the [themes](themes/) directory.
 
 # About
 
