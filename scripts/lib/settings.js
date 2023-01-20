@@ -42,31 +42,31 @@ function registerSettings() {
     );
   }
 
-  game.settings.register(Constants.moduleName, "enableShowMonsterArt", {
-    name: "Enable the \"Show Monster Art\" action",
-    hint: "When enabled, this adds a new action to the \"NPC\" sheets that allows showing to the players available monster art.",
+  game.settings.register(Constants.moduleName, "enableShowMonsterArtwork", {
+    name: 'Enable the "Show Monster Artwork" action',
+    hint: 'When enabled, this adds a new action to the "NPC" sheets that allows showing to the players available monster artwork.',
     scope: "world",
     config: true,
     default: true,
     type: Boolean,
     onChange: async (value) => {
-      if (game.kelsUtilities.hooksShowMonsterArt.size == 0) {
-        game.kelsUtilities.registerHooksShowMonsterArt();
+      if (getSetting("enableShowMonsterArtwork")) {
+        game.kelsUtilities.registerHooksShowMonsterArtwork();
       } else {
-        game.kelsUtilities.unregisterHooksShowMonsterArt();
+        game.kelsUtilities.unregisterHooksShowMonsterArtwork();
       }
     },
   });
 
   game.settings.register(Constants.moduleName, "enableOpenMonsterStatblock", {
-    name: "Enable the \"Open Monster Art\" action",
-    hint: "When enabled, this adds a new action to the \"NPC\" sheets that allows opening the available monster stat block in a browser.",
+    name: 'Enable the "Open Monster Art" action',
+    hint: 'When enabled, this adds a new action to the "NPC" sheets that allows opening the available monster stat block in a browser.',
     scope: "world",
     config: true,
     default: true,
     type: Boolean,
     onChange: async (value) => {
-      if (game.kelsUtilities.hooksOpenMonsterStatblock.size == 0) {
+      if (getSetting("enableOpenMonsterStatblock")) {
         game.kelsUtilities.registerHooksOpenMonsterStatblock();
       } else {
         game.kelsUtilities.unregisterHooksOpenMonsterStatblock();

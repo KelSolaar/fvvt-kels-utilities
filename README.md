@@ -27,7 +27,11 @@ This module implements support for equipment (item) quality to [Item Piles](http
 
 ## Monster Art
 
-This module adds a new action to the *NPC* sheets that allows showing to the players available monsters art or opening their stat blocks in the browser.
+This module adds new actions and context menu entries to the *NPC* sheets that allows showing to the players available monsters art or opening their stat blocks in the browser.
+
+![NPC Sheet Actions](images/npc-sheet-actions.png)
+
+![NPC Context Menu Entries](images/npc-context-menu-entries.png)
 
 The current resources data is sourced from the following locations:
 

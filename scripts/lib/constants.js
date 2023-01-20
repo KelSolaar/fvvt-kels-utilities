@@ -1,5 +1,6 @@
 const Constants = {
   moduleName: "kels-utilities",
+  moduleDisplayName: "Kel's Utilities",
   path: undefined,
   packs: {
     rollTables: "kels-utilities-roll-tables",
@@ -42,6 +43,9 @@ const Constants = {
     },
   ],
 };
-Constants.path = `modules/${Constants.moduleName}/`;
+
+Constants.path = `modules/${Constants.moduleName}`;
+Constants.rootResources = `${Constants.path}/resources`;
+Constants.pathJsonMonsterResources = `${Constants.rootResources}/monster_resources.json`;
 
 export { Constants };
