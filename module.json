@@ -2,7 +2,7 @@
   "id": "kels-utilities",
   "title": "Kel's Utilities",
   "description": "A Foundry VTT module containing various utilities I wrote to improve the gameplay.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
