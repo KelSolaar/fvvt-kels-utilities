@@ -139,7 +139,7 @@ class KelsUtilities {
           return;
         }
 
-        const monsterName = actorSheet.object.name;
+        const monsterName = game.actors.get(actorSheet.object._id).name;
         const monsterArtworkUrl = this.monsterArtworkUrl(monsterName);
 
         if (monsterArtworkUrl == null) {
@@ -223,7 +223,7 @@ class KelsUtilities {
           return;
         }
 
-        const monsterName = actorSheet.object.name;
+        const monsterName = game.actors.get(actorSheet.object._id).name;
         const monsterStatblockUrl = this.monsterStatblockUrl(monsterName);
 
         if (monsterStatblockUrl == null) {
