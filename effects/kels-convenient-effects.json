@@ -11,7 +11,10 @@
     "source": "",
     "quantity": 1,
     "weight": 0,
-    "price": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
     "attunement": 0,
     "equipped": false,
     "rarity": "",
@@ -22,7 +25,7 @@
       "condition": ""
     },
     "duration": {
-      "value": null,
+      "value": "",
       "units": ""
     },
     "target": {
@@ -50,7 +53,7 @@
     },
     "ability": null,
     "actionType": null,
-    "attackBonus": 0,
+    "attackBonus": "",
     "chatFlavor": "",
     "critical": {
       "threshold": null,
@@ -78,7 +81,7 @@
         "seconds": null,
         "combat": null,
         "rounds": null,
-        "turns": 1,
+        "turns": null,
         "startRound": null,
         "startTurn": null
       },
@@ -120,14 +123,12 @@
         {
           "key": "system.attributes.ac.bonus",
           "mode": 2,
-          "value": "+2",
-          "priority": 20
+          "value": "+2"
         },
         {
           "key": "system.abilities.dex.bonuses.save",
           "mode": 2,
-          "value": "+2",
-          "priority": 20
+          "value": "+2"
         }
       ],
       "tint": null
@@ -139,7 +140,7 @@
       "duration": {
         "seconds": null,
         "rounds": null,
-        "turns": 1,
+        "turns": null,
         "startTime": null,
         "combat": null,
         "startRound": null,
@@ -181,14 +182,12 @@
         {
           "key": "system.attributes.ac.bonus",
           "mode": 2,
-          "value": "+5",
-          "priority": 20
+          "value": "+5"
         },
         {
           "key": "system.abilities.dex.bonuses.save",
           "mode": 2,
-          "value": "+5",
-          "priority": 20
+          "value": "+5"
         }
       ],
       "transfer": false,
@@ -202,7 +201,7 @@
       "duration": {
         "seconds": null,
         "rounds": null,
-        "turns": 1,
+        "turns": null,
         "startTime": null,
         "combat": null,
         "startRound": null,
@@ -245,14 +244,12 @@
         {
           "key": "system.attributes.ac.bonus",
           "mode": 2,
-          "value": "+9999",
-          "priority": 20
+          "value": "+9999"
         },
         {
           "key": "system.abilities.dex.bonuses.save",
           "mode": 2,
-          "value": "+9999",
-          "priority": 20
+          "value": "+9999"
         }
       ],
       "transfer": false,
@@ -262,18 +259,18 @@
   ],
   "flags": {
     "exportSource": {
-      "world": "dragons-of-stormwreck-isle",
+      "world": "ramblings",
       "system": "dnd5e",
       "coreVersion": "10.291",
-      "systemVersion": "2.0.3"
+      "systemVersion": "2.1.2"
     }
   },
   "_stats": {
     "systemId": "dnd5e",
-    "systemVersion": "2.0.3",
+    "systemVersion": "2.1.2",
     "coreVersion": "10.291",
     "createdTime": 1672875825750,
-    "modifiedTime": 1673347815329,
-    "lastModifiedBy": "RC4eFCi3jc0ukQ5D"
+    "modifiedTime": 1674193435243,
+    "lastModifiedBy": "PfVOOjE4wcs1iF1n"
   }
 }
