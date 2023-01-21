@@ -28,12 +28,9 @@ This module adds new actions and context menu entries to the *NPC* sheets that a
 
 ![NPC Context Menu Entries](images/npc-context-menu-entries.png)
 
-The current resource urls are sourced from the following locations:
+The current resource urls are sourced from [DnD Beyond - Monsters](https://www.dndbeyond.com/monsters)
 
--   [DnD Beyond - Monsters](https://www.dndbeyond.com/monsters)
--   [AideDD - Monsters 5e](https://www.aidedd.org/dnd-filters/monsters.php)
-
-Various Python scripts from the [utilities](utilities/) directory can be used to update the resource urls.
+The [dndbeyond_monster_resources.py](utilities/dndbeyond_monster_resources.py) Python script can be used to update the resource urls.
 
 ## Miscellaneous
 
