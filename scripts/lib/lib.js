@@ -63,11 +63,12 @@ class KelsUtilities {
   }
 
   async modifyTokenEquipementQuality(token) {
-    let dfManualRollsGm = null, dfManualRollsPc = null;
+    let dfManualRollsGm = null,
+      dfManualRollsPc = null;
     if (this.isModuleActive("df-manual-rolls")) {
       dfManualRollsGm = game.settings.get("df-manual-rolls", "gm");
       dfManualRollsPc = game.settings.get("df-manual-rolls", "pc");
-      
+
       await game.settings.set("df-manual-rolls", "gm", "disabled");
       await game.settings.set("df-manual-rolls", "pc", "disabled");
     }
@@ -91,8 +92,11 @@ class KelsUtilities {
             "equipmentQualityModified",
             true
           );
+          let equipmentQualityNameLocalized = game.i18n.localize(
+            `${Constants.moduleName}.settings.${equipmentQuality.name}.name`
+          );
           await item.update({
-            name: item.name + " " + "(" + equipmentQuality.name + ")",
+            name: `${item.name} (${equipmentQualityNameLocalized})`,
             "system.price.value":
               item.system.price.value * equipmentQuality.priceMultiplier,
           });
@@ -222,8 +226,11 @@ class KelsUtilities {
     this.hooksShowMonsterArtwork.set(
       hookName,
       Hooks.on(hookName, async (html, entryOptions) => {
+        let showMonsterArtworkLocalized = game.i18n.localize(
+          `${Constants.moduleName}.lib.showMonsterArtwork`
+        );
         entryOptions.push({
-          name: `${Constants.moduleDisplayName}: Show Monster Artwork`,
+          name: `${Constants.moduleDisplayName}: ${showMonsterArtworkLocalized}`,
           icon: '<i class="fa-solid fa-brush"></i>',
           callback: (li) => {
             const actor = game.actors.get(li.data("documentId"));
@@ -302,8 +309,11 @@ class KelsUtilities {
     this.hooksOpenMonsterStatblock.set(
       hookName,
       Hooks.on(hookName, async (html, entryOptions) => {
+        let openStatBlockLocalized = game.i18n.localize(
+          `${Constants.moduleName}.lib.openStatBlock`
+        );
         entryOptions.push({
-          name: `${Constants.moduleDisplayName}: Open Stat Block`,
+          name: `${Constants.moduleDisplayName}: ${openStatBlockLocalized}`,
           icon: '<i class="fa fa-th"></i>',
           callback: (li) => {
             const actor = game.actors.get(li.data("documentId"));

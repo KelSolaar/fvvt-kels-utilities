@@ -5,8 +5,12 @@ function registerSettings() {
     Constants.moduleName,
     "enableCombatEndTurnIntoItemPiles",
     {
-      name: 'Enable Combat End Turn Into "Item Piles"',
-      hint: 'When enabled, at the end of combat, the non-player combatants with 0 HP are converted to "Item Piles".',
+      name: game.i18n.localize(
+        `${Constants.moduleName}.settings.enableCombatEndTurnIntoItemPiles.name`
+      ),
+      hint: game.i18n.localize(
+        `${Constants.moduleName}.settings.enableCombatEndTurnIntoItemPiles.hint`
+      ),
       scope: "world",
       config: true,
       default: true,
@@ -26,8 +30,12 @@ function registerSettings() {
     Constants.moduleName,
     "enableEquipmentQualityIntegration",
     {
-      name: 'Enable Equipment Quality for "Item Piles"',
-      hint: 'When enabled, the equipment (item) quality of "Item Piles" converted tokens is randomly changed as a function of the "Equipment Quality" roll table. The quality is reflected in the item modified name and price.',
+      name: game.i18n.localize(
+        `${Constants.moduleName}.settings.enableEquipmentQualityIntegration.name`
+      ),
+      hint: game.i18n.localize(
+        `${Constants.moduleName}.settings.enableEquipmentQualityIntegration.hint`
+      ),
       scope: "world",
       config: true,
       default: true,
@@ -44,23 +52,27 @@ function registerSettings() {
   );
 
   for (const equipmentQuality of Constants.equipmentQuality) {
-    game.settings.register(
-      Constants.moduleName,
-      "equipmentQuality" + equipmentQuality.name.replace(/\s/g, ""),
-      {
-        name: equipmentQuality.name,
-        hint: equipmentQuality.description,
-        scope: "world",
-        config: true,
-        default: equipmentQuality.priceMultiplier,
-        type: Number,
-      }
-    );
+    game.settings.register(Constants.moduleName, equipmentQuality.name, {
+      name: game.i18n.localize(
+        `${Constants.moduleName}.settings.${equipmentQuality.name}.name`
+      ),
+      hint: game.i18n.localize(
+        `${Constants.moduleName}.settings.${equipmentQuality.name}.description`
+      ),
+      scope: "world",
+      config: true,
+      default: equipmentQuality.priceMultiplier,
+      type: Number,
+    });
   }
 
   game.settings.register(Constants.moduleName, "enableShowMonsterArtwork", {
-    name: 'Enable the "Show Monster Artwork" action',
-    hint: "When enabled, this adds a new action to the non-player character sheets that allows showing to the players available monster artwork.",
+    name: game.i18n.localize(
+      `${Constants.moduleName}.settings.enableShowMonsterArtwork.name`
+    ),
+    hint: game.i18n.localize(
+      `${Constants.moduleName}.settings.enableShowMonsterArtwork.hint`
+    ),
     scope: "world",
     config: true,
     default: true,
@@ -75,8 +87,12 @@ function registerSettings() {
   });
 
   game.settings.register(Constants.moduleName, "enableOpenMonsterStatblock", {
-    name: 'Enable the "Open Monster Art" action',
-    hint: "When enabled, this adds a new action to the non-player character sheets that allows opening the available monster stat block in a browser.",
+    name: game.i18n.localize(
+      `${Constants.moduleName}.settings.enableOpenMonsterStatblock.name`
+    ),
+    hint: game.i18n.localize(
+      `${Constants.moduleName}.settings.enableOpenMonsterStatblock.hint`
+    ),
     scope: "world",
     config: true,
     default: true,

@@ -1,3 +1,23 @@
 {
-    "MODULE.hello": "hello"
+  "kels-utilities.settings.enableCombatEndTurnIntoItemPiles.name": "Enable Combat End Turn Into \"Item Piles\"",
+  "kels-utilities.settings.enableCombatEndTurnIntoItemPiles.hint": "When enabled, at the end of combat, the non-player combatants with 0 HP are converted to \"Item Piles\".",
+  "kels-utilities.settings.enableEquipmentQualityIntegration.name": "Enable Equipment Quality for \"Item Piles\"",
+  "kels-utilities.settings.enableEquipmentQualityIntegration.hint": "When enabled, the equipment (item) quality of \"Item Piles\" converted tokens is randomly changed as a function of the \"Equipment Quality\" roll table. The quality is reflected in the item modified name and price.",
+  "kels-utilities.settings.enableShowMonsterArtwork.name": "Enable the \"Show Monster Artwork\" action",
+  "kels-utilities.settings.enableShowMonsterArtwork.hint": "When enabled, this adds a new action to the non-player character sheets that allows showing to the players available monster artwork.",
+  "kels-utilities.settings.enableOpenMonsterStatblock.name": "Enable the \"Open Monster Art\" action",
+  "kels-utilities.settings.enableOpenMonsterStatblock.hint": "When enabled, this adds a new action to the non-player character sheets that allows opening the available monster stat block in a browser.",
+  "kels-utilities.settings.equipmentQualitySuperb.name": "Superb",
+  "kels-utilities.settings.equipmentQualitySuperb.description": "Price multiplier for a \"superb\" looted item.",
+  "kels-utilities.settings.equipmentAlmostNew.name": "Almost New",
+  "kels-utilities.settings.equipmentAlmostNew.description": "Price multiplier for an \"almost new\" looted item.",
+  "kels-utilities.settings.equipmentLowQualityPoorlyMadeHighUse.name": "Low Quality, Poorly Made, High Use",
+  "kels-utilities.settings.equipmentLowQualityPoorlyMadeHighUse.description": "Price multiplier for a \"low quality, poorly made, high use\" looted item.",
+  "kels-utilities.settings.equipmentTerribleQualityCrackedWarped.name": "Terrible Quality, Cracked, Warped",
+  "kels-utilities.settings.equipmentTerribleQualityCrackedWarped.description": "Price multiplier for a \"terrible quality, cracked, warped\" looted item.",
+  "kels-utilities.settings.equipmentDestroyed.name": "Destroyed",
+  "kels-utilities.settings.equipmentDestroyed.description": "Price multiplier for a \"destroyed\" looted item.",
+  
+  "kels-utilities.lib.showMonsterArtwork": "Show Monster Artwork",
+  "kels-utilities.lib.openStatBlock": "Open Stat Block"
 }

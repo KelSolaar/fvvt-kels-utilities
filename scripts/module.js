@@ -4,6 +4,7 @@ import { getSetting, registerSettings } from "./lib/settings.js";
 
 Hooks.once("init", async function () {
   log("Initialising module...");
+  
   registerSettings();
 
   game.kelsUtilities = await new KelsUtilities();

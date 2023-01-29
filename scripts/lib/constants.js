@@ -10,34 +10,27 @@ const Constants = {
   },
   equipmentQuality: [
     {
-      name: "Superb",
-      description: 'Price multiplier for a "superb" looted item.',
+      name: "equipmentQualitySuperb",
       priceMultiplier: 1.5,
       range: [1, 2],
     },
     {
-      name: "Almost New",
-      description: 'Price multiplier for an "almost new" looted item.',
+      name: "equipmentAlmostNew",
       priceMultiplier: 1.0,
       range: [3, 5],
     },
     {
-      name: "Low Quality, Poorly Made, High Use",
-      description:
-        'Price multiplier for a "low quality, poorly made, high use" looted item.',
+      name: "equipmentLowQualityPoorlyMadeHighUse",
       priceMultiplier: 0.5,
       range: [6, 55],
     },
     {
-      name: "Terrible Quality, Cracked, Warped",
-      description:
-        'Price multiplier for a "terrible quality, cracked, warped" looted item.',
+      name: "equipmentTerribleQualityCrackedWarped",
       priceMultiplier: 0.1,
       range: [56, 65],
     },
     {
-      name: "Destroyed",
-      description: 'Price multiplier for a "destroyed" looted item.',
+      name: "equipmentDestroyed",
       priceMultiplier: 0.0,
       range: [66, 100],
     },
