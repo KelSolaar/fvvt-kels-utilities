@@ -3,49 +3,53 @@
   "title": "Kel's Utilities",
   "description": "A Foundry VTT module containing various utilities I wrote to improve the gameplay.",
   "version": "0.2.1",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "10",
+    "verified": "10.291"
   },
   "authors": [
     {
       "name": "Thomas Mansencal",
       "url": "https://github.com/KelSolaar",
-      "discord": "discordID#0001"
+      "discord": "discordID#0001",
+      "flags": {}
     }
   ],
   "relationships": {
-    "systems": [],
     "requires": [
       {
         "id": "item-piles",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
-  "esmodules": ["scripts/module.js"],
-  "scripts": [],
-  "styles": ["styles/module.css"],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
+      "flags": {}
     }
   ],
   "packs": [
     {
       "label": "Kel's Utilities: Roll Tables",
       "name": "kels-utilities-roll-tables",
-      "path": "./packs/kels-utilities-roll-tables.db",
+      "path": "packs/kels-utilities-roll-tables.db",
       "system": "dnd5e",
-      "type": "RollTable"
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
     }
   ],
-  "url": "https://github.com/KelSolaar/fvvt-kels-utilities.git",
+  "url": "https://github.com/KelSolaar/fvvt-kels-utilities",
   "manifest": "https://github.com/KelSolaar/fvvt-kels-utilities/releases/latest/download/module.json",
   "download": "https://github.com/KelSolaar/fvvt-kels-utilities/releases/latest/download/module.zip",
   "license": "https://github.com/KelSolaar/fvvt-kels-utilities/blob/master/LICENSE",
@@ -53,9 +57,10 @@
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4",
+      "loop": false,
+      "flags": {}
     }
   ],
-  "bugs": "https://github.com/KelSolaar/fvvt-kels-utilities/issues",
-  "allowBugReporter": true
+  "bugs": "https://github.com/KelSolaar/fvvt-kels-utilities/issues"
 }
