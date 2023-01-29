@@ -175,6 +175,13 @@ blockquote.ddb-blockquote {
   margin-right: 5px;
 }
 
+/*** df-architect ***/
+.df-arch-counter {
+  border-radius: 5px;
+  right: 323px;
+  top: 12px;
+}
+
 /*** dnd5 ***/
 /* Overall */
 .dnd5e .items-list .items-header {
@@ -342,6 +349,53 @@ blockquote.ddb-blockquote {
 
 .item-piles-config-container p {
   color: var(--app-dialog-background-shaded);
+}
+
+/*** Let Me Roll That For You! ***/
+#lmrtfy {
+  height: none;
+}
+
+.lmrtfy-parchment .lmrtfy-request-roll,
+.lmrtfy-parchment .lmrtfy-save-roll,
+.lmrtfy.lmrtfy-parchment .window-content {
+  background-image: none;
+  background-color: var(--palette-dialog-background);
+}
+
+.lmrtfy-parchment .select-all,
+.lmrtfy-parchment .deselect-all,
+.lmrtfy.lmrtfy-parchment select,
+.lmrtfy.lmrtfy-parchment input[type="text"] {
+  background-color: var(--palette-primary);
+}
+
+.lmrtfy-parchment .lmrtfy-request-roll,
+.lmrtfy-parchment .lmrtfy-save-roll {
+  background-color: var(--palette-primary);
+  margin-bottom: 5px;
+}
+
+.lmrtfy-dice-svg-normal,
+.lmrtfy-dice-tray-button,
+.lmrtfy-bonus-button {
+  background-color: var(--palette-primary);
+}
+
+.lmrtfy fieldset {
+  border: 1px solid var(--color-border-light-highlight);
+
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+}
+
+.lmrtfy-ability-checks > div,
+.lmrtfy-saving-throws > div,
+.lmrtfy-skill-checks > div,
+.lmrtfy-extras > div {
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 /*** Monk's Tokenbar ***/
