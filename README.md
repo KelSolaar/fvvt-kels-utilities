@@ -4,9 +4,13 @@
 
 A [Foundry VTT](https://foundryvtt.com) module containing various utilities I wrote to improve the gameplay.
 
+## Combat End & Item Piles
+
+At the end of combat, the combatant tokens with 0 HP are automatically turned into an *Item Pile*
+
 ## Equipment Quality
 
-This module implements support for equipment (item) quality to [Item Piles](https://github.com/fantasycalendar/FoundryVTT-ItemPiles).
+Equipment (item) quality support is added to [Item Piles](https://github.com/fantasycalendar/FoundryVTT-ItemPiles).
 
 When a token is turned into an *Item Pile*, the quality of its items is modified by randomly changing the item name and its price as a function of the *Equipment Quality* roll table from [Thieve's Guild](https://www.thievesguild.cc/harvest/creature.php?id=1#tab4):
 

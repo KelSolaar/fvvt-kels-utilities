@@ -8,8 +8,12 @@ Hooks.once("init", async function () {
 
   game.kelsUtilities = await new KelsUtilities();
 
+  if (getSetting("enableCombatEndTurnIntoItemPiles")) {
+    game.kelsUtilities.registerCombatEndTurnIntoItemPiles();
+  }
+
   if (getSetting("enableEquipmentQualityIntegration")) {
-    game.kelsUtilities.registerHooksTurnIntoItemPiles();
+    game.kelsUtilities.registerHooksModifyEquipmentQuality();
   }
 
   if (getSetting("enableShowMonsterArtwork")) {
@@ -27,16 +31,24 @@ Hooks.once("ready", async function () {
 
 Hooks.on("renderSettingsConfig", (app, html, data) => {
   $("<div>")
-    .addClass("form-group group-header")
-    .html("Equipment Quality")
+    .addClass(".kels-settings-header")
+    .html("<h1>Combat End</h1>")
+    .insertBefore(
+      $(
+        `[name="${Constants.moduleName}.enableCombatEndTurnIntoItemPiles"]`
+      ).parents("div.form-group:first")
+    );
+  $("<div>")
+    .addClass(".kels-settings-header")
+    .html("<h1>Equipment Quality</h1>")
     .insertBefore(
       $(
         `[name="${Constants.moduleName}.enableEquipmentQualityIntegration"]`
       ).parents("div.form-group:first")
     );
   $("<div>")
-    .addClass("form-group group-header")
-    .html("NPC Actions")
+    .addClass(".kels-settings-header")
+    .html("<h1>Non-Player Character Actions</h1>")
     .insertBefore(
       $(`[name="${Constants.moduleName}.enableShowMonsterArtwork"]`).parents(
         "div.form-group:first"

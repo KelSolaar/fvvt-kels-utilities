@@ -19,7 +19,8 @@ class KelsUtilities {
         Constants.pathJsonMonsterResources
       ).then((response) => response.json());
 
-      this.hooksTurnIntoItemPiles = new Map();
+      this.hooksCombatEndTurnIntoItemPiles = new Map();
+      this.hooksModifyEquipmentQuality = new Map();
       this.hooksShowMonsterArtwork = new Map();
       this.hooksOpenMonsterStatblock = new Map();
 
@@ -62,11 +63,13 @@ class KelsUtilities {
   }
 
   async modifyTokenEquipementQuality(token) {
-    let gmState = null;
+    let dfManualRollsGm = null, dfManualRollsPc = null;
     if (this.isModuleActive("df-manual-rolls")) {
-      gmState = game.settings.get("df-manual-rolls", "gm");
-      if (gmState !== "disabled")
-        await game.settings.set("df-manual-rolls", "pc", "disabled");
+      dfManualRollsGm = game.settings.get("df-manual-rolls", "gm");
+      dfManualRollsPc = game.settings.get("df-manual-rolls", "pc");
+      
+      await game.settings.set("df-manual-rolls", "gm", "disabled");
+      await game.settings.set("df-manual-rolls", "pc", "disabled");
     }
 
     const pack = `${Constants.moduleName}.${Constants.packs.rollTables}`;
@@ -75,29 +78,83 @@ class KelsUtilities {
       .getDocument(Constants.rolltableIds.equipmentQuality);
 
     for (let item of token.actor.items) {
-      log(`Updating ${item}`);
-      const results = await tableEquipmentQuality.roll();
-      const equipmentQuality = this.tableResultToEquipmentQuality(results);
+      if (
+        item.getFlag(Constants.moduleName, "equipmentQualityModified") != true
+      ) {
+        log(`Updating "${item.name}" equipment quality...`);
+        const results = await tableEquipmentQuality.roll();
+        const equipmentQuality = this.tableResultToEquipmentQuality(results);
 
-      if (item.system.price?.value != undefined) {
-        await item.update({
-          name: item.name + " " + "(" + equipmentQuality.name + ")",
-          "system.price.value":
-            item.system.price.value * equipmentQuality.priceMultiplier,
-        });
+        if (item.system.price?.value != undefined) {
+          await item.setFlag(
+            Constants.moduleName,
+            "equipmentQualityModified",
+            true
+          );
+          await item.update({
+            name: item.name + " " + "(" + equipmentQuality.name + ")",
+            "system.price.value":
+              item.system.price.value * equipmentQuality.priceMultiplier,
+          });
+        }
+      } else {
+        log(`Skipping "${item.name}", equipment quality is already set!`);
       }
     }
 
     if (this.isModuleActive("df-manual-rolls")) {
-      await game.settings.set("df-manual-rolls", "pc", gmState);
+      await game.settings.set("df-manual-rolls", "gm", dfManualRollsGm);
+      await game.settings.set("df-manual-rolls", "pc", dfManualRollsPc);
     }
   }
 
-  async registerHooksTurnIntoItemPiles() {
-    log('Registering "TurnIntoItemPiles" hooks...');
+  async registerCombatEndTurnIntoItemPiles() {
+    log('Registering "CombatEndTurnIntoItemPiles" hooks...');
+
+    let hookName = "deleteCombat";
+    this.hooksCombatEndTurnIntoItemPiles.set(
+      hookName,
+      Hooks.on(hookName, async (combat) => {
+        if (game.user.isGM) {
+          if (combat.started == true) {
+            let monsterTokens = combat.combatants
+              .filter((combatant) => {
+                return (
+                  combatant.token.disposition != 1 &&
+                  combatant.actor.system.attributes.hp.value == 0
+                );
+              })
+              .map((combatant) => {
+                return combatant.token;
+              });
+
+            ItemPiles.API.turnTokensIntoItemPiles(monsterTokens);
+          }
+        }
+      })
+    );
+
+    return this.hooksCombatEndTurnIntoItemPiles;
+  }
+
+  async unregisterCombatEndTurnIntoItemPiles() {
+    log('Unregistering "CombatEndTurnIntoItemPiles" hooks...');
+
+    for (let [key, hook] of this.hooksCombatEndTurnIntoItemPiles.entries()) {
+      log(`Unregistering ${key} with ${hook} id.`);
+      Hooks.off(key, hook);
+    }
+
+    this.hooksCombatEndTurnIntoItemPiles = new Map();
+
+    return this.hooksCombatEndTurnIntoItemPiles;
+  }
+
+  async registerHooksModifyEquipmentQuality() {
+    log('Registering "ModifyEquipmentQuality" hooks...');
 
     let hookName = "item-piles-turnIntoItemPiles";
-    this.hooksTurnIntoItemPiles.set(
+    this.hooksModifyEquipmentQuality.set(
       hookName,
       Hooks.on(hookName, async (tokenUpdateGroups, actorUpdateGroups) => {
         for (let [key, tokenUpdates] of Object.entries(tokenUpdateGroups)) {
@@ -112,20 +169,20 @@ class KelsUtilities {
       })
     );
 
-    return this.hooksTurnIntoItemPiles;
+    return this.hooksModifyEquipmentQuality;
   }
 
-  async unregisterHooksTurnIntoItemPiles() {
-    log('Unregistering "TurnIntoItemPiles" hooks...');
+  async unregisterHooksModifyEquipmentQuality() {
+    log('Unregistering "ModifyEquipmentQuality" hooks...');
 
-    for (let [key, hook] of this.hooksTurnIntoItemPiles.entries()) {
+    for (let [key, hook] of this.hooksModifyEquipmentQuality.entries()) {
       log(`Unregistering ${key} with ${hook} id.`);
       Hooks.off(key, hook);
     }
 
-    this.hooksTurnIntoItemPiles = new Map();
+    this.hooksModifyEquipmentQuality = new Map();
 
-    return this.hooksTurnIntoItemPiles;
+    return this.hooksModifyEquipmentQuality;
   }
 
   async registerHooksShowMonsterArtwork() {
