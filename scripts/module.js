@@ -1,4 +1,4 @@
-import { Constants } from "./lib/Constants.js";
+import { Constants } from "./lib/constants.js";
 import { KelsUtilities, log } from "./lib/lib.js";
 import { getSetting, registerSettings } from "./lib/settings.js";
 
