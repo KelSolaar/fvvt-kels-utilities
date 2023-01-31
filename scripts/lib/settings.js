@@ -1,4 +1,4 @@
-import { Constants } from "./Constants.js";
+import { Constants } from "./constants.js";
 
 function registerSettings() {
   game.settings.register(

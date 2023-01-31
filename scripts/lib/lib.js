@@ -1,4 +1,4 @@
-import { Constants } from "./Constants.js";
+import { Constants } from "./constants.js";
 import { getSetting } from "./settings.js";
 
 function log(message) {
