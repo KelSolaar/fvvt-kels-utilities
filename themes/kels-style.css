@@ -124,14 +124,29 @@ form button:active {
   color: var(--color-text-dark-primary);
 }
 
+.prosemirror.menu-dialog form {
+  background-color: var(--app-dialog-background);
+  color: var(--color-text-light-0);
+}
+
 /* Journal */
 a.content-link,
 a.inline-roll {
   background-color: var(--palette-primary);
 }
 
+.stat-block-background {
+  background-image: none !important;
+}
+
+.text--quote-box,
+.text-quote-box {
+  background-color: var(--palette-primary) !important;
+  padding: 10px;
+}
+
 .kels-utilities-note {
-  background-color: var(--palette-blue);
+  background-color: var(--palette-blue) !important;
   padding: 10px;
 }
 
