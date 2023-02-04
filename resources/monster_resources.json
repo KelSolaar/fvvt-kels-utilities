@@ -4448,11 +4448,11 @@
     "statblock_url": "https://www.dndbeyond.com/monsters/16923-hill-giant"
   },
   "Hill Giant (variant)": {
-    "image_url": "https://www.dndbeyond.com/avatars/thumbnails/5925/633/1000/1000/636920445052182608.jpeg",
+    "image_url": "https://www.dndbeyond.com/avatars/thumbnails/31967/825/1000/1000/638108539064029825.png",
     "statblock_url": "https://www.dndbeyond.com/monsters/324280-hill-giant-variant"
   },
   "Hill Giant Sergeant": {
-    "image_url": "https://www.dndbeyond.com/avatars/thumbnails/13442/7/1000/1000/637390377466555932.jpeg",
+    "image_url": "https://www.dndbeyond.com/avatars/thumbnails/31967/816/1000/1000/638108538713841451.png",
     "statblock_url": "https://www.dndbeyond.com/monsters/296999-hill-giant-sergeant"
   },
   "Hill Giant Subchief": {
@@ -7003,6 +7003,10 @@
     "image_url": "https://www.dndbeyond.com/content/1-0-2352-0/skins/waterdeep/images/icons/monsters/humanoid.jpg",
     "statblock_url": "https://www.dndbeyond.com/monsters/2160321-prismari-professor-of-perfection"
   },
+  "Prisoner 13": {
+    "image_url": "https://www.dndbeyond.com/avatars/thumbnails/31952/416/1000/1000/638107916281362695.png",
+    "statblock_url": "https://www.dndbeyond.com/monsters/3259781-prisoner-13"
+  },
   "Prisoner 237": {
     "image_url": "https://www.dndbeyond.com/avatars/thumbnails/12734/940/1000/1000/637357081741000823.jpeg",
     "statblock_url": "https://www.dndbeyond.com/monsters/1123116-prisoner-237"
@@ -7072,7 +7076,7 @@
     "statblock_url": "https://www.dndbeyond.com/monsters/17182-quaggoth-spore-servant"
   },
   "Quaggoth Thonot": {
-    "image_url": "https://www.dndbeyond.com/avatars/thumbnails/9/57/1000/1000/636322790083765727.jpeg",
+    "image_url": "https://www.dndbeyond.com/avatars/thumbnails/31954/941/1000/1000/638107988625198735.png",
     "statblock_url": "https://www.dndbeyond.com/monsters/17194-quaggoth-thonot"
   },
   "Quandrix Apprentice": {
