@@ -36,6 +36,9 @@ The current resource urls are sourced from [DnD Beyond - Monsters](https://www.d
 
 The [dndbeyond_monster_resources.py](utilities/dndbeyond_monster_resources.py) Python script can be used to update the resource urls.
 
+## Macros
+
+The [macros](macros/) directory contains various useful macros.
 ## Miscellaneous
 
 My theme for [lib-themer](https://github.com/mouse0270/lib-themer) is available along with its companion stylesheet file in the [themes](themes/) directory.
