@@ -1,5 +1,8 @@
 beautifulsoup4
 black
+js2py
+levenshtein
 lxml
+pymediawiki
 requests
 tqdm
