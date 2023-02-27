@@ -1,4 +1,4 @@
-![Latest Release Download Count](https://img.shields.io/github/downloads/KelSolaar/fvvt-kels-utilities/latest/module.zip) ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fkels-utilities&colorB=4aa94a) ![Foundry Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fgithub.com%2FKelSolaar%2Ffvvt-kels-utilities%2Freleases%2Flatest%2Fdownload%2Fmodule.json&label=Foundry%20Version&query=$.compatibility.minimum&colorB=orange)
+![Downloads](https://img.shields.io/github/downloads/KelSolaar/fvvt-kels-utilities/module.zip) ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fkels-utilities&colorB=4aa94a) ![Foundry Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fgithub.com%2FKelSolaar%2Ffvvt-kels-utilities%2Freleases%2Flatest%2Fdownload%2Fmodule.json&label=Foundry%20Version&query=$.compatibility.minimum&colorB=orange)
 
 # Kel's Utilities
 
@@ -39,6 +39,15 @@ The [dndbeyond_monster_resources.py](utilities/dndbeyond_monster_resources.py) P
 ## Macros
 
 The [macros](macros/) directory contains various useful macros.
+
+### Create Clothing Item
+
+![Create Clothing Item](images/create-clothing-item.png)
+
+Create a clothing item according to [Aurora's Whole Realms Spring Catalogue](https://www.dmsguild.com/product/347200/Auroras-Whole-Realms-Spring-Catalogue).
+
+![Clothing Item](images/clothing-item.png)
+
 ## Miscellaneous
 
 My theme for [lib-themer](https://github.com/mouse0270/lib-themer) is available along with its companion stylesheet file in the [themes](themes/) directory.
