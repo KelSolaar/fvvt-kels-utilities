@@ -3,6 +3,7 @@ black
 js2py
 levenshtein
 lxml
+openai
 pymediawiki
 requests
 tqdm

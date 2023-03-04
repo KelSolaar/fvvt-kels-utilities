@@ -36,6 +36,10 @@ The current resource urls are sourced from [DnD Beyond - Monsters](https://www.d
 
 The [dndbeyond_monster_resources.py](utilities/dndbeyond_monster_resources.py) Python script can be used to update the resource urls.
 
+## Non-Player Character Briefing Sheet
+
+The [npc_briefing_sheet.py](utilities/npc_briefing_sheet.py) Python script can be used to generate a non-player character briefing sheet using [OpenAI ChatGPT](https://platform.openai.com/docs/guides/chat).
+
 ## Macros
 
 The [macros](macros/) directory contains various useful macros.
