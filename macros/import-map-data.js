@@ -3,16 +3,19 @@ Import the map data from a json file generated with the following python
 script: https://gist.github.com/KelSolaar/6f0847adb6bfa08665287a18039c8e24
 */
 
-/*
+const moduleName = game.kelsUtilities.Constants.moduleName;
+
 const mapName = "Waterdeep";
+const folderName = "Atlas: Waterdeep";
 const offset = [1144, 1169];
 const scale = [0.9795, 0.9795];
-*/
 
+/*
 const mapName = "Faerûn";
 const folderName = "Atlas: Faerûn";
 const offset = [202, 205];
 const scale = [1.5243, 1.5247];
+*/
 
 const icons = {
   Undefined: {
@@ -90,6 +93,8 @@ for (const location of mapData.locations) {
   let journalEntry = game.journal.getName(location.name);
   if (journalEntry != undefined) continue;
 
+  console.log(`Creating location for "${location.name}"...`);
+
   journalEntry = await JournalEntry.create(
     {
       name: location.name,
@@ -102,6 +107,11 @@ for (const location of mapData.locations) {
       displaySheet: false,
     }
   );
+
+  await journalEntry.setFlag(moduleName, "mapData", {
+    name: location.name,
+    type: location.type,
+  });
 
   let content = location.description;
   const urlWiki = location.references["Fandom Wiki"];
