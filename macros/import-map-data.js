@@ -10,15 +10,16 @@ const scale = [0.9795, 0.9795];
 */
 
 const mapName = "Faerûn";
+const folderName = "Atlas: Faerûn";
 const offset = [202, 205];
 const scale = [1.5243, 1.5247];
 
 const icons = {
   Undefined: {
-    icon: "modules/kels-utilities/icons/circle.svg",
+    icon: "modules/kels-utilities/icons/undefined.svg",
     tint: "#ffffff",
   },
-  Area: { icon: "modules/kels-utilities/icons/circle.svg", tint: "#ffffff" },
+  Area: { icon: "modules/kels-utilities/icons/area.svg", tint: "#ffffff" },
   Business: { icon: "icons/svg/hanging-sign.svg", tint: "#f44336" },
   "City Building": {
     icon: "modules/kels-utilities/icons/building.svg",
@@ -70,13 +71,13 @@ const mapData = await fetch(
 ).then((response) => response.json());
 
 let folder = game.folders.contents.find(
-  (folder) => folder.type === "JournalEntry" && folder.name === mapName
+  (folder) => folder.type === "JournalEntry" && folder.name === folderName
 );
 
 if (folder == undefined) {
   folder = await Folder.create(
     {
-      name: mapName,
+      name: folderName,
       type: "JournalEntry",
     },
     { displaySheet: false }
