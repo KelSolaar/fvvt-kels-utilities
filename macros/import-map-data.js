@@ -113,7 +113,7 @@ for (const location of mapData.locations) {
     type: location.type,
   });
 
-  let content = location.description;
+  let content = location.description.html;
   const urlWiki = location.references["Fandom Wiki"];
   if (urlWiki) {
     content =
