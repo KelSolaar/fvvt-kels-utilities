@@ -7,3 +7,4 @@ openai
 pymediawiki
 requests
 tqdm
+wikitextparser
