@@ -41,7 +41,7 @@ for (const itemName of itemNames) {
       folder: folder,
       system: {
         price: { value: price, denomination: denomination },
-	    source: source,
+        source: source,
       },
       permission: {
         default: CONST.DOCUMENT_PERMISSION_LEVELS.LIMITED,
