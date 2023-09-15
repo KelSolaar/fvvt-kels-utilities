@@ -144,9 +144,14 @@ a.inline-roll {
 }
 
 .text--quote-box,
-.text-quote-box {
+.text-quote-box,
+{
   background-color: var(--palette-primary) !important;
   padding: 10px;
+}
+
+blockquote.adventure-read-aloud-text {
+	background-color: var(--palette-primary) !important;
 }
 
 .kels-utilities-note {
