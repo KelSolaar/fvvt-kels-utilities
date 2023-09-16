@@ -40,5 +40,6 @@ const Constants = {
 Constants.path = `modules/${Constants.moduleName}`;
 Constants.rootResources = `${Constants.path}/resources`;
 Constants.pathJsonMonsterResources = `${Constants.rootResources}/monster_resources.json`;
+Constants.pathHarvestingAndLootResources = `${Constants.rootResources}/harvesting_and_loot_resources.json`;
 
 export { Constants };
