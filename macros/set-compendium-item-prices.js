@@ -1,5 +1,5 @@
 /*
-Set Compendium item prices.
+Set compendium item prices.
 */
 
 const sourcePackName = "dnd5e.items";
